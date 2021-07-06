@@ -97,10 +97,10 @@ if veafAssets then
         {sort=1, name="CSG-01 Tarawa", description="Tarawa (LHA)", information="Tacan 10X TAA\nU225 (10)"},  --Done
         {sort=2, name="CSG-74 Stennis", description="Stennis (CVN)", information="Tacan 11X STS\nICLS 11\nU226 (11)"},  --Done
         {sort=2, name="CSG-71 Roosevelt", description="Roosevelt (CVN-71)", information="Tacan 12X RHR\nICLS 12\nU227 (12)"}, --Done
-        {sort=3, name="T1-Texaco-1", description="Texaco-1 (KC-135 MPRS)", information="Tacan 60Y\nU290.00 (17)\nZone SUD-OUEST", linked="Escort Texaco-1"}, --Done
-        {sort=4, name="T2-Arco-1", description="Arco-1 (KC-135)", information="Tacan 61Y\nU290.10 (18)\nZone OUEST", linked="Escort Arco-1"},  --Done
-        {sort=5, name="T3-Shell-1", description="Shell-1 (KC-135)", information="Tacan 62Y\nU290.20 (19)\nZone EST, basse altitude", linked="Escort Shell-1"},  --Done
-        {sort=6, name="T4-Texaco-2", description="Texaco-2 (KC-135 MPRS)", information="Tacan 63Y\nU290.30 (20)\nZone NEUTRE", linked="Escort Texaco-2"},  --Done
+        {sort=3, name="T1-Texaco-1", description="Texaco-1 (KC-135 MPRS)", information="Tacan 60Y\nU290.00 (15)\nZone SUD-OUEST", linked="Escort Texaco-1"}, --Done
+        {sort=4, name="T2-Arco-1", description="Arco-1 (KC-135)", information="Tacan 61Y\nU290.10 (16)\nZone OUEST", linked="Escort Arco-1"},  --Done
+        {sort=5, name="T3-Shell-1", description="Shell-1 (KC-135)", information="Tacan 62Y\nU290.20 (17)\nZone EST, basse altitude", linked="Escort Shell-1"},  --Done
+        {sort=6, name="T4-Texaco-2", description="Texaco-2 (KC-135 MPRS)", information="Tacan 63Y\nU290.30 (18)\nZone NEUTRE", linked="Escort Texaco-2"},  --Done
         {sort=6, name="T5-Petrolsky-1", description="160 (IL-78M, RED)", information="U267", linked="Escort Petrolsky-1"},  --Done
         {sort=7, name="CVN-74 John C. Stennis S-3B Tanker", description="Arco-3 (S3-B)", information="Tacan 75X\nU290.90\nZone PA"},  --Done
         {sort=7, name="CVN-71 Theodore Roosevelt S-3B Tanker", description="Arco-2 (S3-B)", information="Tacan 76X\nU290.80\nZone PA"},  --Done
@@ -133,135 +133,9 @@ if veafCombatMission then
 
     -- CAP from the North
     veafCombatMission.addCapMission("CAP-From-The-North", "CAP From The North", "A Russian CAP patrol of Mig21Bis has been spotted over the upper island, they're seams to be hostile.", true, true)
---        cloned (multiple scale and skills) combat mission example
-        veafCombatMission.AddMissionsWithSkillAndScale(
- 		VeafCombatMission.new()
- 		:setSecured(false)
- 		:setRadioMenuEnabled(true)
- 		:setName("Intercept-Hostiles")
- 		:setFriendlyName("Intercept hostiles aircrafts")
- 		:setBriefing([[
-A Russian CAP patrol of Mig21Bis has been spotted over the upper island, they're seams to be hostile.
-You need to intercept them, and kill them is the dont cooperate !
-]]
-)
- 		:addElement(
- 			VeafCombatMissionElement.new()
- 			:setName("OnDemandeMig21ComingFromNorthEasyGroup2")
-             :setGroups({"OnDemandeMig21ComingFromNorthEasyGroup2"})
-             :setScalable(true)
- 		)
--- 		:addElement(
--- 			VeafCombatMissionElement.new()
--- 			:setName("OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort")
---             :setGroups({"OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort"})
---             :setSkill("Random")
--- 		)
- 		:addObjective(
- 			VeafCombatMissionObjective.new()
- 			:setName("Intercept hostiles")
- 			:setDescription("you must intercept hostile and kill them if they dont cooperate")
- 			:setMessage("%d hostiles planes destroyed !")
- 			:configureAsKillEnemiesObjective() -- TODO               -- Attend quoi, todo ?
- 		)
- 		:initialize()
- 	)
 
     -- Cap from the east
     veafCombatMission.addCapMission("CAP-From-The-East", "CAP From The East", "A Russian CAP patrol of Mig21Bis has been spotted at the East of our island, they're seams to be hostile.", true, true)
---        cloned (multiple scale and skills) combat mission example
-        veafCombatMission.AddMissionsWithSkillAndScale(
-        VeafCombatMission.new()
-        :setSecured(false)
-        :setRadioMenuEnabled(true)
-        :setName("Intercept-Hostiles")
-        :setFriendlyName("Intercept hostiles aircrafts")
-        :setBriefing([[
-A Russian CAP patrol of Mig21Bis has been spotted at the East of our island, they're seams to be hostile.
-You need to intercept them, and kill them is the dont cooperate !
-]]
-)
-        :addElement(
-            VeafCombatMissionElement.new()
-            :setName("OnDemandeMig21ComingFromEastGroup")
-             :setGroups({"OnDemandeMig21ComingFromEastGroup"})
-             :setScalable(true)
-        )
---      :addElement(
---          VeafCombatMissionElement.new()
---          :setName("OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort")
---             :setGroups({"OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort"})
---             :setSkill("Random")
---      )
-        :addObjective(
-            VeafCombatMissionObjective.new()
-            :setName("Intercept hostiles")
-            :setDescription("you must intercept hostile and kill them if they dont cooperate")
-            :setMessage("%d hostiles planes destroyed !")
-            :configureAsKillEnemiesObjective() -- TODO               -- Attend quoi, todo ?
-        )
-        :initialize()
-    )
-
-    -- standard combat mission example
---     veafCombatMission.AddMission(
--- 		VeafCombatMission.new()
---         :setSecured(true)
---         :setRadioMenuEnabled(false)
--- 		:setName("Red-attack-Gudauta")
--- 		:setFriendlyName("Red attack On Gudauta")
--- 		:setBriefing([[
--- Alert ! This is not a drill !
--- Tactical and strategic bombers have been detected at the russian border, to the north of Gudauta.
--- Their course will lead them to the Gudauta airbase, which is probably their mission.
--- Destroy all the bombers before they hit the base !
--- ]]
--- )
--- 		:addElement(
--- 			VeafCombatMissionElement.new()
--- 			:setName("SEAD")
--- 			:setGroups({
--- 				"Red Attack On Gudauta - Wave 1-1",
--- 				"Red Attack On Gudauta - Wave 1-2",
--- 				"Red Attack On Gudauta - Wave 1-3",
--- 				"Red Attack On Gudauta - Wave 1-4" })
--- 			:setSkill("Random")
--- 		)
--- 		:addElement(
--- 			VeafCombatMissionElement.new()
--- 			:setName("Bombers")
--- 			:setGroups({
--- 				"Red Attack On Gudauta - Wave 2-1",
---                 "Red Attack On Gudauta - Wave 2-2",
---                 "Red Attack On Gudauta - Wave 2-3" })
--- 			:setSkill("Random")
--- 		)
--- 		:addObjective(
--- 			VeafCombatMissionObjective.new()
--- 			:setName("HVT Gudauta")
--- 			:setDescription("the mission will be failed if any of the HVT on Gudauta are destroyed")
--- 			:setMessage("HVT target(s) destroyed : %s !")
--- 			:configureAsPreventDestructionOfSceneryObjectsInZone(
--- 				{
--- 					"Gudauta - Tower",
--- 					"Gudauta - Kerosen",
--- 					"Gudauta - Mess"},
--- 				{
--- 					[156696667] = "Gudauta Tower",
--- 					[156735615] = "Gudauta Kerosen tankers",
--- 					[156729386] = "Gudauta mess"
--- 				}
--- 			)
--- 		)
--- 		:addObjective(
--- 			VeafCombatMissionObjective.new()
--- 			:setName("Kill all the bombers")
--- 			:setDescription("you must kill all of the bombers")
--- 			:setMessage("%d bombers destroyed !")
--- 			:configureAsKillEnemiesObjective()
--- 		)
--- 		:initialize()
--- 	)
 
     veaf.loggers.get(veaf.Id):info("init - veafCombatMission")
     veafCombatMission.initialize()
@@ -296,7 +170,8 @@ Il y aurait possiblement des manpads et de l'infanterie armée, soyez prudent ! 
 			:setMissionEditorZoneName("combatzone_defend_the_platform")
 			:setFriendlyName("Defend the Gas Platform")
 			:setBriefing([[Un groupe de bateaux criminels se trouve en direction de la plateforme pétrolière à l'ouest de l'île
-Ils sont à 35 pour 10nm de la platforme. Décollez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)]])
+Ils sont à 35 pour 10nm de la platforme. Décollez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)
+La plateforme est situé aux coordonnées suivantes : N 13°52'39'' E 144°15'55'']])
 	)
 
 	veafCombatZone.AddZone(
@@ -304,7 +179,8 @@ Ils sont à 35 pour 10nm de la platforme. Décollez au plus vite et interceptez 
 			:setMissionEditorZoneName("combatzone_escort_boat_to_east_gp")
 			:setFriendlyName("[PVP] Attack the gaz platform")
 			:setBriefing([[Escortez les deux navires jusqu'au platforme pétrolière ennemie, dans le but de les capturer
-Ils sont situés au Sud-Est de l'île, 110 pour 4 de Santa Rita (Cette mission doit être réalisé à l'aide de 3 huey de chaque côté)]])
+Ils sont situés au Sud-Est de l'île, 110 pour 4 de Santa Rita (Cette mission doit être réalisé à l'aide de 3 huey de chaque côté)
+La plateforme est situé aux coordonnées suivantes : N13°15'44'' E145°9'17'']])
 	)
 
 	veafCombatZone.AddZone(
@@ -318,7 +194,7 @@ Attention, elle contient possiblement des défences anti-aérienne long porté, 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_red_carrier_group")
-			:setFriendlyName("Destroy an hostile carrier group")
+			:setFriendlyName("Destroy hostile carrier group")
 			:setBriefing([[Un groupe de navires hostile a été détecté à l'ouest de nos côte, l'objectif est de l'éliminer !
 Attention, ils disposent d'une très long distance de tir et ont possiblement des unitées aériennes en vol, soyez prudent !]])
 	)
