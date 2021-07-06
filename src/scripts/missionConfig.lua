@@ -131,42 +131,77 @@ end
 if veafCombatMission then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 
-    -- CAP mission example
-    -- veafCombatMission.addCapMission("CAP-Maykop-1", "CAP on Maykop", "A Russian CAP patrol has been spotted over Maykop.", true, true)
-
-    -- cloned (multiple scale and skills) combat mission example
---     veafCombatMission.AddMissionsWithSkillAndScale(
--- 		VeafCombatMission.new()
--- 		:setSecured(false)
--- 		:setRadioMenuEnabled(true)
--- 		:setName("Intercept-Kraznodar-1")
--- 		:setFriendlyName("Intercept a transport / KRAZNODAR - MINVODY")
--- 		:setBriefing([[
--- A Russian transport plane is taking off from Kraznodar and will transport a VIP to Mineralnye Vody.
--- It is escorted by a fighter patrol.
--- ]]
--- )
--- 		:addElement(
--- 			VeafCombatMissionElement.new()
--- 			:setName("OnDemand-Intercept-Transport-Krasnodar-Mineral-Transport")
---             :setGroups({"OnDemand-Intercept-Transport-Krasnodar-Mineral-Transport"})
---             :setScalable(false)
--- 		)
+    -- CAP from the North
+    veafCombatMission.addCapMission("CAP-From-The-North", "CAP From The North", "A Russian CAP patrol of Mig21Bis has been spotted over the upper island, they're seams to be hostile.", true, true)
+--        cloned (multiple scale and skills) combat mission example
+        veafCombatMission.AddMissionsWithSkillAndScale(
+ 		VeafCombatMission.new()
+ 		:setSecured(false)
+ 		:setRadioMenuEnabled(true)
+ 		:setName("Intercept-Hostiles")
+ 		:setFriendlyName("Intercept hostiles aircrafts")
+ 		:setBriefing([[
+A Russian CAP patrol of Mig21Bis has been spotted over the upper island, they're seams to be hostile.
+You need to intercept them, and kill them is the dont cooperate !
+]]
+)
+ 		:addElement(
+ 			VeafCombatMissionElement.new()
+ 			:setName("OnDemandeMig21ComingFromNorthEasyGroup2")
+             :setGroups({"OnDemandeMig21ComingFromNorthEasyGroup2"})
+             :setScalable(true)
+ 		)
 -- 		:addElement(
 -- 			VeafCombatMissionElement.new()
 -- 			:setName("OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort")
 --             :setGroups({"OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort"})
 --             :setSkill("Random")
 -- 		)
--- 		:addObjective(
--- 			VeafCombatMissionObjective.new()
--- 			:setName("Destroy the transport")
--- 			:setDescription("you must destroy the transport and kill the VIP")
--- 			:setMessage("%d transport planes destroyed !")
--- 			:configureAsKillEnemiesObjective() -- TODO
--- 		)
--- 		:initialize()
--- 	)
+ 		:addObjective(
+ 			VeafCombatMissionObjective.new()
+ 			:setName("Intercept hostiles")
+ 			:setDescription("you must intercept hostile and kill them if they dont cooperate")
+ 			:setMessage("%d hostiles planes destroyed !")
+ 			:configureAsKillEnemiesObjective() -- TODO               -- Attend quoi, todo ?
+ 		)
+ 		:initialize()
+ 	)
+
+    -- Cap from the east
+    veafCombatMission.addCapMission("CAP-From-The-East", "CAP From The East", "A Russian CAP patrol of Mig21Bis has been spotted at the East of our island, they're seams to be hostile.", true, true)
+--        cloned (multiple scale and skills) combat mission example
+        veafCombatMission.AddMissionsWithSkillAndScale(
+        VeafCombatMission.new()
+        :setSecured(false)
+        :setRadioMenuEnabled(true)
+        :setName("Intercept-Hostiles")
+        :setFriendlyName("Intercept hostiles aircrafts")
+        :setBriefing([[
+A Russian CAP patrol of Mig21Bis has been spotted at the East of our island, they're seams to be hostile.
+You need to intercept them, and kill them is the dont cooperate !
+]]
+)
+        :addElement(
+            VeafCombatMissionElement.new()
+            :setName("OnDemandeMig21ComingFromEastGroup")
+             :setGroups({"OnDemandeMig21ComingFromEastGroup"})
+             :setScalable(true)
+        )
+--      :addElement(
+--          VeafCombatMissionElement.new()
+--          :setName("OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort")
+--             :setGroups({"OnDemand-Intercept-Transport-Krasnodar-Mineral-Escort"})
+--             :setSkill("Random")
+--      )
+        :addObjective(
+            VeafCombatMissionObjective.new()
+            :setName("Intercept hostiles")
+            :setDescription("you must intercept hostile and kill them if they dont cooperate")
+            :setMessage("%d hostiles planes destroyed !")
+            :configureAsKillEnemiesObjective() -- TODO               -- Attend quoi, todo ?
+        )
+        :initialize()
+    )
 
     -- standard combat mission example
 --     veafCombatMission.AddMission(
@@ -251,50 +286,50 @@ Your must use your radio with the right frequency to practice there (check the k
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_cocosisland")
 			:setFriendlyName("Coco's Island")
-			:setBriefing([[Nous avons détecté un groupe de criminels non identifié
-Ils auraient des substances illégales et extrêmement nosifs, l'objectif est de les rappoter à Santa Rita avec une hélicoptère à élingue
-Il y aurait possiblement des manpads et de l'infanterie armée, soyez prudent ! (Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)]])
+			:setBriefing([[Nous avons dÃ©tectÃ© un groupe de criminels non identifiÃ©
+Ils auraient des substances illÃ©gales et extrÃªmement nosifs, l'objectif est de les rappoter Ã  Santa Rita avec une hÃ©licoptÃ¨re Ã  Ã©lingue
+Il y aurait possiblement des manpads et de l'infanterie armÃ©e, soyez prudent ! (Cette mission doit Ãªtre rÃ©alisÃ© Ã  l'aide d'hÃ©licoptÃ¨re uniquement)]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_defend_the_platform")
 			:setFriendlyName("Defend the Gas Platform")
-			:setBriefing([[Un groupe de bateaux criminels se trouve en direction de la plateforme pétrolière à l'ouest de l'île
-Ils sont à 35 pour 10nm de la platforme. Décollez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)]])
+			:setBriefing([[Un groupe de bateaux criminels se trouve en direction de la plateforme pÃ©troliÃ¨re Ã  l'ouest de l'Ã®le
+Ils sont Ã  35 pour 10nm de la platforme. DÃ©collez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit Ãªtre rÃ©alisÃ© Ã  l'aide d'hÃ©licoptÃ¨re uniquement)]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_escort_boat_to_east_gp")
 			:setFriendlyName("[PVP] Attack the gaz platform")
-			:setBriefing([[Escortez les deux navires jusqu'au platforme pétrolière ennemie, dans le but de les capturer
-Ils sont situés au Sud-Est de l'île, 110 pour 4 de Santa Rita (Cette mission doit être réalisé à l'aide de 3 huey de chaque côté uniquement hélicoptère)]])
+			:setBriefing([[Escortez les deux navires jusqu'au platforme pÃ©troliÃ¨re ennemie, dans le but de les capturer
+Ils sont situÃ©s au Sud-Est de l'Ã®le, 110 pour 4 de Santa Rita (Cette mission doit Ãªtre rÃ©alisÃ© Ã  l'aide de 3 huey de chaque cÃ´tÃ©)]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_free_rota_island")
-			:setFriendlyName("Free rota Island")
-			:setBriefing([[L'île centrale a été capturé par une organisation criminel, votre objectif et des tous les éliminer pour libérer l'île
-Attention, elle contient possiblement des défences anti-aérienne long porté, soyez prudent !]])
+			:setFriendlyName("Free Rota Island")
+			:setBriefing([[L'Ã®le centrale a Ã©tÃ© capturÃ© par une organisation criminel, votre objectif et des tous les Ã©liminer pour libÃ©rer l'Ã®le
+Attention, elle contient possiblement des dÃ©fences anti-aÃ©rienne long portÃ©, soyez prudent !]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_red_carrier_group")
-			:setFriendlyName("Destroy the hostile carrier group")
-			:setBriefing([[Un groupe de navires hostile a été détecté à l'ouest de nos côte, l'objectif est de l'éliminer !
-Attention, ils disposent d'une très long distance de tir et ont possiblement des unitées aériennes en vol, soyez prudent !]])
+			:setFriendlyName("Destroy an hostile carrier group")
+			:setBriefing([[Un groupe de navires hostile a Ã©tÃ© dÃ©tectÃ© Ã  l'ouest de nos cÃ´te, l'objectif est de l'Ã©liminer !
+Attention, ils disposent d'une trÃ¨s long distance de tir et ont possiblement des unitÃ©es aÃ©riennes en vol, soyez prudent !]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_sucrerie_illegal")
-			:setFriendlyName("[WIP] Sucrerie Illégals")
-			:setBriefing([[Un groupe de navires disposent de marchandises illégal et de provenance inconnue est en direction l'île, arrêtez les, et s'il ne coopère par,
-vous pourez les éliminer ! Ils sont à 10 pour 11 de Olf Orote, et sont en mouvement, il pourrait atteindre le port très rapidement ! (hélicoptère uniquement)
-<!> Attention, cette mission n'est pas terminé, il est possible qu'elle contient des bugs, si les navires s'arrêtent juste avant le port, vous pouvez esitimer que la mission est un échec <!>]])
+			:setFriendlyName("[WIP] Sucreries IllÃ©gals")
+			:setBriefing([[Un groupe de navires disposent de marchandises illÃ©gal et de provenance inconnue est en direction l'Ã®le, arrÃªtez les, et s'il ne coopÃ¨re par,
+vous pourez les Ã©liminer ! Ils sont Ã  10 pour 11 de Olf Orote, et sont en mouvement, il pourrait atteindre le port trÃ¨s rapidement ! (hÃ©licoptÃ¨re uniquement)
+<!> Attention, cette mission n'est pas terminÃ©, il est possible qu'elle contient des bugs, si les navires s'arrÃªtent juste avant le port, vous pouvez esitimer que la mission est un Ã©chec <!>]])
 	)
 
 	veafCombatZone.AddZone(
@@ -314,7 +349,7 @@ vous pourez les éliminer ! Ils sont à 10 pour 11 de Olf Orote, et sont en mouvem
 	)
 
     veaf.loggers.get(veaf.Id):info("init - veafCombatZone")
-    veafCombatZone.initialize()
+	veafCombatZone.initialize()
 
 end
 
