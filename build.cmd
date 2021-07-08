@@ -163,6 +163,12 @@ pushd %DYNAMIC_SCRIPTS_PATH%\src\scripts\veaf
 "%LUA%" veafMissionRadioPresetsEditor.lua  %DYNAMIC_MISSION_PATH%\build\tempsrc %DYNAMIC_MISSION_PATH%\src\radio\radioSettings.lua %LUA_SCRIPTS_DEBUG_PARAMETER%
 popd
 
+rem -- set the waypoints according to the settings file
+echo set the waypoints according to the settings file
+pushd %DYNAMIC_SCRIPTS_PATH%\src\scripts\veaf
+"%LUA%" veafMissionFlightPlanEditor.lua  %DYNAMIC_MISSION_PATH%\build\tempsrc %DYNAMIC_MISSION_PATH%\src\waypoints\waypointsSettings.lua %LUA_SCRIPTS_DEBUG_PARAMETER%
+popd
+
 rem -- set the dynamic load variables in the dictionary
 echo set the dynamic load variables in the dictionary
 powershell -Command "$temp='VEAF_DYNAMIC_PATH = [[' + [regex]::escape('%DYNAMIC_SCRIPTS_PATH%') + ']]'; (gc .\build\tempsrc\mission) -replace 'VEAF_DYNAMIC_PATH(\s*)=(\s*)\[\[.*\]\]', $temp | sc .\build\tempsrc\mission" >nul 2>&1
