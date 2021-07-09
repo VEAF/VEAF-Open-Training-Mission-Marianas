@@ -1,0 +1,27 @@
+
+mission range -> training = true
+
+mi-24 -> skin par défaut VEAF
+
+kneeboard
+
+vérifier les noms de pilotes Mi-24 (CTLD)
+
+corriger le delai dans les commandes CombatZones (pour l'hélico de Coco)
+
+2021-07-08 21:29:12.021 ERROR   SCRIPTING: MARKERS|E|onEvent|147: Error in event handler #2 : [string "C:\Users\veaf\AppData\Local\Temp\private2_server\/~mis0000764C.lua"]:90: attempt to index local 'dcsGroup' (a nil value)
+-> HoundElint
+
+Les hélicos doivent être :
+ - en groupe de 1 pour les hélicos de transport (c'est aussi valable pour les Yak-52)
+ - en groupe de 4 pour les autres
+ 
+Les noms des groupes doivent être sous la forme : "<type> <lieu>-<index>" ; si l'appareil est en hot start on rajoute "-HOT" après le nom du lieu
+ - <type> est le nom du type d'appareil (dans la liste "type")
+ - <lieu> est le nom de l'endroit où il spawn
+ - <index> est le numéro du flight _dans cet endroit_
+Les noms des pilotes sont le nom du groupe suivi de -<index pilote>
+Exemple :
+ - "Ka-50 Olf Orote-1", composé de "Ka-50 Olf Orote-1-1", "Ka-50 Olf Orote-1-2", "Ka-50 Olf Orote-1-3" et "Ka-50 Olf Orote-1-4"
+ - "Mi-24P Olf Orote-1", composé de "Mi-24P Olf Orote-1-1"
+ - "Mi-8MTV2 Olf Orote-HOT-1", composé de "Mi-8MTV2 Olf Orote-HOT-1-1"
