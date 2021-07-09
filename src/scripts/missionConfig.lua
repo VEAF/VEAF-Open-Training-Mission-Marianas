@@ -154,6 +154,7 @@ if veafCombatZone then
 			:setBriefing([[NorthWest Field is at 300 for 5 from Andersen AFB
 Your can use the weapon you want to practice, there are no threat
 Your must use your radio with the right frequency to practice there (check the kneeboard)]])
+            :setTraining(true)
 	)
 
 	veafCombatZone.AddZone(
