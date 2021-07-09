@@ -161,7 +161,7 @@ Your must use your radio with the right frequency to practice there (check the k
 			:setMissionEditorZoneName("combatzone_cocosisland")
 			:setFriendlyName("Coco's Island")
 			:setBriefing([[Nous avons détecté un groupe de criminels non identifié
-Ils auraient des substances illégales et extrêmement nosifs, l'objectif est de les rappoter à Santa Rita avec une hélicoptère à élingue
+Ils auraient des substances illégales et extrêmement nocives, l'objectif est de les rapporter à Santa Rita avec une hélicoptère à élingue
 Il y aurait possiblement des manpads et de l'infanterie armée, soyez prudent ! (Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)]])
 	)
 
@@ -170,7 +170,7 @@ Il y aurait possiblement des manpads et de l'infanterie armée, soyez prudent ! 
 			:setMissionEditorZoneName("combatzone_defend_the_platform")
 			:setFriendlyName("Defend the Gas Platform")
 			:setBriefing([[Un groupe de bateaux criminels se trouve en direction de la plateforme pétrolière à l'ouest de l'île
-Ils sont à 35 pour 10nm de la platforme. Décollez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)
+Ils sont à 35 pour 10nm de la plateforme. Décollez au plus vite et interceptez le avant qu'il ne soit trop tard !(Cette mission doit être réalisé à l'aide d'hélicoptère uniquement)
 La plateforme est situé aux coordonnées suivantes : N 13°52'39'' E 144°15'55'']])
 	)
 
@@ -178,8 +178,8 @@ La plateforme est situé aux coordonnées suivantes : N 13°52'39'' E 144°15'55
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_escort_boat_to_east_gp")
 			:setFriendlyName("[PVP] Attack the gaz platform")
-			:setBriefing([[Escortez les deux navires jusqu'au platforme pétrolière ennemie, dans le but de les capturer
-Ils sont situés au Sud-Est de l'île, 110 pour 4 de Santa Rita (Cette mission doit être réalisé à l'aide de 3 huey de chaque côté)
+			:setBriefing([[Escortez les deux navires jusqu'aux plateformes pétrolières ennemies, dans le but de les capturer
+Ils sont situés au Sud-Est de l'île, 110 pour 4 de Santa Rita (Cette mission doit être réalisée à l'aide de 3 Huey de chaque côté)
 La plateforme est situé aux coordonnées suivantes : N13°15'44'' E145°9'17'']])
 	)
 
@@ -188,7 +188,7 @@ La plateforme est situé aux coordonnées suivantes : N13°15'44'' E145°9'17'']
 			:setMissionEditorZoneName("combatzone_free_rota_island")
 			:setFriendlyName("Free Rota Island")
 			:setBriefing([[L'île centrale a été capturé par une organisation criminel, votre objectif et des tous les éliminer pour libérer l'île
-Attention, elle contient possiblement des défences anti-aérienne long porté, soyez prudent !]])
+Attention, elle contient possiblement des défenses anti-aériennes long portée, soyez prudents !]])
 	)
 
 	veafCombatZone.AddZone(
@@ -203,16 +203,16 @@ Attention, ils disposent d'une très long distance de tir et ont possiblement de
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_sucrerie_illegal")
 			:setFriendlyName("[WIP] Sucreries Illégals")
-			:setBriefing([[Un groupe de navires disposent de marchandises illégal et de provenance inconnue est en direction l'île, arrêtez les, et s'il ne coopère par,
-vous pourez les éliminer ! Ils sont à 10 pour 11 de Olf Orote, et sont en mouvement, il pourrait atteindre le port très rapidement ! (hélicoptère uniquement)
-<!> Attention, cette mission n'est pas terminé, il est possible qu'elle contient des bugs, si les navires s'arrêtent juste avant le port, vous pouvez esitimer que la mission est un échec <!>]])
+			:setBriefing([[Un groupe de navires disposent de marchandises illégal et de provenance inconnue est en direction l'île, arrêtez-les, et s'ils ne coopèrent pas,
+vous pourrez les éliminer ! Ils sont au 010 pour 11nm de Olf Orote, et sont en mouvement, il pourrait atteindre le port très rapidement ! (hélicoptère uniquement)
+<!> Attention, cette mission n'est pas terminé, il est possible qu'elle contient des bugs, si les navires s'arrêtent juste avant le port, vous pouvez estimer que la mission est un échec <!>]])
 	)
 
 	veafCombatZone.AddZone(
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_antiship_training_easy")
 			:setFriendlyName("Antiship Training Easy")
-			:setBriefing([[Entrainement anti navire, un navire avec un distance de tir de 40nm
+			:setBriefing([[Entraînement anti navire, un navire avec une distance de tir de 10nm
 111 pour 190 du Bullseye]])
 	)
 
@@ -220,7 +220,7 @@ vous pourez les éliminer ! Ils sont à 10 pour 11 de Olf Orote, et sont en mouv
 		VeafCombatZone.new()
 			:setMissionEditorZoneName("combatzone_antiship_training_hard")
 			:setFriendlyName("Antiship Training Hard")
-			:setBriefing([[Entrainement anti navire, un navire avec un distance de tir de 100nm
+			:setBriefing([[Entraînement anti navire, un navire avec une distance de tir de 40nm
 110 pour 200 du Bullseye]])
 	)
 
@@ -248,30 +248,17 @@ if veafNamedPoints then
 
 	veafNamedPoints.Points = {
 		-- airbases in Blue Island
-		{name="AIRBASE Andersen AFB",  point={x=-10688,y=0,z=00014822, atc=true, tower="V126.2, U250.1", tacan="", runways={{name="06", hdg=66, ils="110.30"}, {name="24", hdg=246}}}},
-		{name="AIRBASE Antonio B. Won Pat Intl", point={x=-000068,y=0,z=000109, atc=true, tower="V118.1, U340.2", runways={ {name="6", hdg=65, ils="110.50"}, {name="24", hdg=245}}}},
-		{name="AIRBASE Kobuleti",point={x=-318000,y=0,z=636620, atc=true, tower="V133, U262", tacan="67X KBL", runways={ {name="07", hdg=69, ils="111.50"}}}},
-		{name="AIRBASE Kutaisi", point={x=-284860,y=0,z=683839, atc=true, tower="V134, U264", tacan="44X KTS", runways={ {name="08", hdg=74, ils="109.75"}, {name="26", hdg=254}}}},
-		{name="AIRBASE Senaki",  point={x=-281903,y=0,z=648379, atc=true, tower="V132, U261", tacan="31X TSK", runways={ {name="09", hdg=94, ils="108.90"}, {name="27", hdg=274}}}},
-		{name="AIRBASE Sukhumi", point={x=-221382,y=0,z=565909, atc=true, tower="V129, U258", runways={{name="12", hdg=116}, {name="30", hdg=296}}}},
-		{name="AIRBASE Tbilisi", point={x=-314926,y=0,z=895724, atc=true, tower="V138, U267", tacan="25X GTB", runways={{name="13", hdg=127, ils="110.30"},{name="31", hdg=307, ils="108.90"}}}},
-		{name="AIRBASE Vaziani", point={x=-319000,y=0,z=903271, atc=true, tower="V140, U269", tacan="22X VAS", runways={ {name="13", hdg=135, ils="108.75"}, {name="31", hdg=315, ils="108.75"}}}},
-
-		-- airbases in Russia
-        --[[
-		{name="AIRBASE Anapa - Vityazevo",   point={x=-004448,y=0,z=244022, atc=true, tower="V121, U250" , runways={ {name="22", hdg=220}, {name="04", hdg=40}}}},
-		{name="AIRBASE Beslan",              point={x=-000068,y=0,z=000109, atc=true, tower="V118.1, U340.2", runways={ {name="6", hdg=93, ils="110.50"}, {name="24", hdg=273}}}},
-		{name="AIRBASE Krymsk",              point={x=-007349,y=0,z=293712, atc=true, tower="V124, U253", runways={ {name="04", hdg=39}, {name="22", hdg=219}}}},
-		{name="AIRBASE Krasnodar-Pashkovsky",point={x=-008707,y=0,z=388986, atc=true, tower="V128, U257", runways={ {name="23", hdg=227}, {name="05", hdg=47}}}},
-		{name="AIRBASE Krasnodar-Center",    point={x=-011653,y=0,z=366766, atc=true, tower="V122, U251", runways={ {name="09", hdg=86}, {name="27", hdg=266}}}},
-		{name="AIRBASE Gelendzhik",          point={x=-050996,y=0,z=297849, atc=true, tower="V126, U255", runways={ {hdg=40}, {hdg=220}}}},
-		{name="AIRBASE Maykop",              point={x=-027626,y=0,z=457048, atc=true, tower="V125, U254", runways={ {name="04", hdg=40}, {name="22", hdg=220}}}},
-		{name="AIRBASE Mineralnye Vody",     point={x=-052090,y=0,z=707418, atc=true, tower="V135, U264", runways={ {name="12", hdg=115, ils="111.70"}, {name="30", hdg=295, ils="109.30"}}}},
-		{name="AIRBASE Mozdok",              point={x=-083330,y=0,z=835635, atc=true, tower="V137, U266", runways={ {name="08", hdg=82}, {name="26", hdg=262}}}},
-		{name="AIRBASE Nalchik",             point={x=-125500,y=0,z=759543, atc=true, tower="V136, U265", runways={ {name="06", hdg=55}, {name="24", hdg=235, ils="110.50"}}}},
-		{name="AIRBASE Novorossiysk",        point={x=-040299,y=0,z=279854, atc=true, tower="V123, U252", runways={ {name="04", hdg=40}, {name="22", hdg=220}}}},
-		{name="AIRBASE Sochi",               point={x=-165163,y=0,z=460902, atc=true, tower="V127, U256", runways={ {name="06", hdg=62, ils="111.10"}, {name="24", hdg=242}}}},
-        ]]
+		{name="AIRBASE Andersen AFB",  point={x=-010688,y=0,z=014822, atc=true, tower="V126.2, U250.1", tacan="54X", runways={{name="06", hdg=66}, {name="24", hdg=246}}}},
+		{name="AIRBASE Antonio B. Won Pat Intl", point={x=-000068,y=0,z=-000109, atc=true, tower="V118.1, U340.2", runways={ {name="6", hdg=65, ils="110.30"}, {name="24", hdg=245}}}},
+		{name="AIRBASE Olf Orote",point={x=-005047,y=0,z=-016913, atc=false}},
+		{name="AIRBASE Santa Rita",point={x=-013576,y=0,z=-009925, atc=false}},
+		
+		-- airbases in Neutral Island
+		{name="AIRBASE Rota Intl", point={x=-075886,y=0,z=048612, atc=true, tower="V123.6, U250", tacan="44X KTS", runways={ {name="09", hdg=92, ils="109.75"}, {name="27", hdg=272}}}},
+		
+		-- airbases in Red Island
+		{name="AIRBASE Tinian Intl",  point={x=-166865,y=0,z=090027, atc=true, tower="V123.65, U250.05", tacan="31X TSK", runways={ {name="0", hdg=94, ils="108.90"}, {name="27", hdg=274}}}},
+		{name="AIRBASE Saipan Intl", point={x=180074,y=0,z=101921, atc=true, tower="V125.7, U256.9", runways={{name="07", hdg=68, ils="109.90"}, {name="25", hdg=248}}}},
 	}
 
     veaf.loggers.get(veaf.Id):info("Loading configuration")
