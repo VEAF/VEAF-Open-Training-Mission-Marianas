@@ -353,7 +353,7 @@ end
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Hound Elint
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafHoundElint then
+if veafHoundElint and false then -- don't use Hound Elint
     veaf.loggers.get(veaf.Id):info("init - veafHoundElint")
     veafHoundElint.initialize(
         "ELINT", -- prefix
