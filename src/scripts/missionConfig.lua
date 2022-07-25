@@ -14,11 +14,13 @@ veafBeacons = false
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize QRA
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
+
 if veaf then
     VeafQRA.new()
     :setName("QRA_upperIsland")
     :addGroup("QRA_upperIsland")
-    :setRadius(152400) --Conversion 500000ft => 152400m
+    :setZoneRadius(152400) --Conversion 500000ft => 152400m
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :start()
@@ -26,7 +28,7 @@ if veaf then
     VeafQRA.new()
     :setName("veryurgentQRA")
     :addGroup("veryurgentQRA_Mig29S")
-    :setRadius(30480) --Conversion 100000ft => 30480m
+    :setZoneRadius(30480) --Conversion 100000ft => 30480m
     :setCoalition(coalition.side.RED)
     :addEnnemyCoalition(coalition.side.BLUE)
     :start()
@@ -34,7 +36,7 @@ if veaf then
     VeafQRA.new()
     :setName("QRA_lowerisland")
     :addGroup("QRA_lowerisland")
-    :setRadius(60960) --Conversion 200000ft => 60960m
+    :setZoneRadius(60960) --Conversion 200000ft => 60960m
     :setCoalition(coalition.side.BLUE)
     :addEnnemyCoalition(coalition.side.RED)
     :start()
@@ -42,7 +44,7 @@ if veaf then
     VeafQRA.new()
     :setName("Carrier_QRA")
     :addGroup("Carrier_QRA")
-    :setRadius(60960) --Conversion 200000ft => 60960m
+    :setZoneRadius(60960) --Conversion 200000ft => 60960m
     :setCoalition(coalition.side.BLUE)
     :addEnnemyCoalition(coalition.side.RED)
     :start()
@@ -395,14 +397,6 @@ if veafRemote then
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
--- initialize the interpreter
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-if veafInterpreter then
-    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
-    veafInterpreter.initialize()
-end
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- initialize Skynet-IADS
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 if veafSkynet then
@@ -413,6 +407,14 @@ if veafSkynet then
         false, --includeBlueInRadio
         false --debugBlue
     )
+end
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- initialize the interpreter
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+if veafInterpreter then
+    veaf.loggers.get(veaf.Id):info("init - veafInterpreter")
+    veafInterpreter.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
