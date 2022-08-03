@@ -66,7 +66,7 @@ if veaf then
     :addEnnemyCoalition(coalition.side.RED)
     :start()
 
-    QRA_Carrier_QRA= VeafQRA.new()
+    QRA_Carrier_QRA = VeafQRA.new()
     :setName("Carrier_QRA")
     :addGroup("Carrier_QRA")
     :setZoneRadius(60960) --Conversion 200000ft => 60960m
