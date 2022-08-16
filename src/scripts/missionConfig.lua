@@ -132,7 +132,7 @@ if veafAssets then
         {sort=6, name="T2-Arco-1", description="Arco-1 (KC-135)", information="Tacan 61Y\nU290.10 (16)\nZone OUEST", linked="Escort Arco-1"},  --Done
         {sort=7, name="T3-Shell-1", description="Shell-1 (KC-135)", information="Tacan 62Y\nU290.20 (17)\nZone EST, basse altitude", linked="Escort Shell-1"},  --Done
         {sort=8, name="T4-Texaco-2", description="Texaco-2 (KC-135 MPRS)", information="Tacan 63Y\nU290.30 (18)\nZone NEUTRE", linked="Escort Texaco-2"},  --Done
-        {sort=9, name="T5-Petrolsky-1", description="160 (IL-78M, RED)", information="U267", linked="Escort Petrolsky-1"},  --Done
+        {sort=9, name="T5-Petrolsky-1", description="160 (IL-78M, RED)", information="U290 (15)", linked="Escort Petrolsky-1"},  --Done
         {sort=10, name="CVN-74 John C. Stennis S-3B Tanker", description="Arco-3 (S3-B)", information="Tacan 75X\nU290.90\nZone PA"},  --Done
         {sort=11, name="CVN-71 Theodore Roosevelt S-3B Tanker", description="Arco-2 (S3-B)", information="Tacan 76X\nU290.80\nZone PA"},  --Done
 
@@ -140,7 +140,7 @@ if veafAssets then
         {sort=12, name="Agate", description="Dodge-1 AFAC Agate (MQ-9)", information="L1687 U268.90 (19)", jtac=1687, freq=268.90, mod="am"},  --Done
 
         {sort=12, name="A1-Magic", description="Magic (E-3A)", information="Datalink 315.3 Mhz\nU282.20 (13)", linked="Escort A1-Magic"}, --Done
-        {sort=13, name="A2-Overlordsky", description="Overlordsky / 145 (A-50, RED)", information="U242.12"},  --Done
+        {sort=13, name="A2-Overlordsky", description="Overlordsky / 145 (A-50, RED)", information="U282.20 (13)"},  --Done
     }
 
     veaf.loggers.get(veaf.Id):info("init - veafAssets")
