@@ -17,7 +17,7 @@ veafBeacons = false
 VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
 if veaf then
-    QRA_upperIsland = VeafQRA.new()
+    QRA_upperIsland = VeafQRA:new()
     :setName("QRA_upperIsland")
     :addGroup("QRA_upperIsland")
     :setZoneRadius(152400) --Conversion 500000ft => 152400m
@@ -50,7 +50,7 @@ if veaf then
     --:setSilent() --mutes this QRA only, VeafQRA.AllSilence has to be false for this to have an effect
     :start()
 
-    QRA_veryurgentQRA = VeafQRA.new()
+    QRA_veryurgentQRA = VeafQRA:new()
     :setName("veryurgentQRA")
     :addGroup("veryurgentQRA_Mig29S")
     :setZoneRadius(30480) --Conversion 100000ft => 30480m
@@ -58,7 +58,7 @@ if veaf then
     :addEnnemyCoalition(coalition.side.BLUE)
     :start()
 
-    QRA_lowerisland = VeafQRA.new()
+    QRA_lowerisland = VeafQRA:new()
     :setName("QRA_lowerisland")
     :addGroup("QRA_lowerisland")
     :setZoneRadius(60960) --Conversion 200000ft => 60960m
@@ -66,7 +66,7 @@ if veaf then
     :addEnnemyCoalition(coalition.side.RED)
     :start()
 
-    QRA_Carrier_QRA = VeafQRA.new()
+    QRA_Carrier_QRA = VeafQRA:new()
     :setName("Carrier_QRA")
     :addGroup("Carrier_QRA")
     :setZoneRadius(60960) --Conversion 200000ft => 60960m
@@ -181,7 +181,7 @@ if veafCombatZone then
     veaf.loggers.get(veaf.Id):info("Loading configuration")
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_northwestfield")
 			:setFriendlyName("NorthWest Field Practice Range")
 			:setBriefing([[NorthWest Field is at 300 for 5 from Andersen AFB
@@ -191,7 +191,7 @@ Your must use your radio with the right frequency to practice there (check the k
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_cocosisland")
 			:setFriendlyName("Coco's Island")
 			:setBriefing([[Nous avons détecté un groupe de criminels non identifié
@@ -200,7 +200,7 @@ Il y aurait possiblement des manpads et de l'infanterie armée, soyez prudent ! 
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_defend_the_platform")
 			:setFriendlyName("Defend the Gas Platform")
 			:setBriefing([[Un groupe de bateaux criminels se trouve en direction de la plateforme pétrolière à l'ouest de l'île
@@ -209,7 +209,7 @@ La plateforme est situé aux coordonnées suivantes : N 13°52'39'' E 144°15'55
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_escort_boat_to_east_gp")
 			:setFriendlyName("[PVP] Attack the gaz platform")
 			:setBriefing([[Escortez les deux navires jusqu'aux plateformes pétrolières ennemies, dans le but de les capturer
@@ -218,7 +218,7 @@ La plateforme est situé aux coordonnées suivantes : N13°15'44'' E145°9'17'']
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_free_rota_island")
 			:setFriendlyName("Free Rota Island")
 			:setBriefing([[L'île centrale a été capturé par une organisation criminel, votre objectif et des tous les éliminer pour libérer l'île
@@ -226,7 +226,7 @@ Attention, elle contient possiblement des défenses anti-aériennes long portée
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_red_carrier_group")
 			:setFriendlyName("Destroy hostile carrier group")
 			:setBriefing([[Un groupe de navires hostile a été détecté à l'ouest de nos côte, l'objectif est de l'éliminer !
@@ -234,7 +234,7 @@ Attention, ils disposent d'une très long distance de tir et ont possiblement de
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_sucrerie_illegal")
 			:setFriendlyName("[WIP] Sucreries Illégals")
 			:setBriefing([[Un groupe de navires disposent de marchandises illégal et de provenance inconnue est en direction l'île, arrêtez-les, et s'ils ne coopèrent pas,
@@ -243,7 +243,7 @@ vous pourrez les éliminer ! Ils sont au 010 pour 11nm de Olf Orote, et sont en 
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_antiship_training_easy")
 			:setFriendlyName("Antiship Training Easy")
 			:setBriefing([[Entraînement anti navire, un navire avec une distance de tir de 10nm
@@ -251,7 +251,7 @@ vous pourrez les éliminer ! Ils sont au 010 pour 11nm de Olf Orote, et sont en 
 	)
 
 	veafCombatZone.AddZone(
-		VeafCombatZone.new()
+		VeafCombatZone:new()
 			:setMissionEditorZoneName("combatzone_antiship_training_hard")
 			:setFriendlyName("Antiship Training Hard")
 			:setBriefing([[Entraînement anti navire, un navire avec une distance de tir de 40nm
