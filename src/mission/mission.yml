@@ -2822,7 +2822,7 @@ coalition:
                     ExhaustScreen: true
                     Helmet-mounted device: 0
                     IMU alignment type: 3
-                    Realistic INS: 1
+                    Realistic INS: 0
                     modification: Ka-50_3
                   Radio:
                     1:
@@ -2888,7 +2888,7 @@ coalition:
                     ExhaustScreen: true
                     Helmet-mounted device: 0
                     IMU alignment type: 3
-                    Realistic INS: 1
+                    Realistic INS: 0
                     modification: Ka-50_3
                   Radio:
                     1:
@@ -16379,7 +16379,7 @@ coalition:
             34:
               communication: true
               frequency: 124
-              groupId: 46
+              groupId: 57
               hidden: true
               lateActivation: true
               modulation: 0
@@ -16528,10 +16528,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
+                    3: 1
                     1: 1
-                    2: 1
-                    name: Enfield15
+                    2: 9
+                    name: Enfield91
                   hardpoint_racks: true
                   heading: 1.7148893731117
                   livery_id: 106th SQN (8th Airbase)
@@ -16569,7 +16569,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: F-15C
-                  unitId: 10
+                  unitId: 2
                   x: 0
                   y: 0
               x: 0
@@ -16577,7 +16577,7 @@ coalition:
             35:
               communication: true
               frequency: 305
-              groupId: 54
+              groupId: 462
               hidden: true
               lateActivation: true
               modulation: 0
@@ -16723,25 +16723,25 @@ coalition:
               units:
                 1:
                   AddPropAircraft:
-                    STN_L16: '00216'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '19'
+                    STN_L16: '00207'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '78'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 1
-                    name: Enfield19
+                    3: 8
+                    1: 2
+                    2: 7
+                    name: Springfield78
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 14
+                            missionUnitId: 7
                           2:
-                            missionUnitId: 15
+                            missionUnitId: 8
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -16783,30 +16783,30 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 14
+                  unitId: 7
                   x: 0
                   y: 0
                 2:
                   AddPropAircraft:
-                    STN_L16: '00217'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '25'
+                    STN_L16: '00210'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '79'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 2
-                    name: Enfield25
+                    3: 9
+                    1: 2
+                    2: 7
+                    name: Springfield79
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 14
+                            missionUnitId: 7
                           2:
-                            missionUnitId: 15
+                            missionUnitId: 8
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -16847,7 +16847,7 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 15
+                  unitId: 8
                   x: 0
                   y: 0
               x: 0
@@ -16855,7 +16855,7 @@ coalition:
             36:
               communication: true
               frequency: 305
-              groupId: 58
+              groupId: 466
               hidden: true
               lateActivation: true
               modulation: 0
@@ -17001,25 +17001,25 @@ coalition:
               units:
                 1:
                   AddPropAircraft:
-                    STN_L16: '00220'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '26'
+                    STN_L16: '00436'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '81'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 2
-                    name: Enfield26
+                    3: 1
+                    1: 2
+                    2: 8
+                    name: Springfield81
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 16
+                            missionUnitId: 158
                           2:
-                            missionUnitId: 17
+                            missionUnitId: 159
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17061,30 +17061,30 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 16
+                  unitId: 158
                   x: 0
                   y: 0
                 2:
                   AddPropAircraft:
-                    STN_L16: '00221'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '27'
+                    STN_L16: '00437'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '82'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 2
-                    name: Enfield27
+                    3: 2
+                    1: 2
+                    2: 8
+                    name: Springfield82
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 16
+                            missionUnitId: 158
                           2:
-                            missionUnitId: 17
+                            missionUnitId: 159
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17125,7 +17125,7 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 17
+                  unitId: 159
                   x: 0
                   y: 0
               x: 0
@@ -17133,7 +17133,7 @@ coalition:
             37:
               communication: true
               frequency: 305
-              groupId: 47
+              groupId: 447
               hidden: true
               lateActivation: true
               modulation: 0
@@ -17279,25 +17279,25 @@ coalition:
               units:
                 1:
                   AddPropAircraft:
-                    STN_L16: '00213'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '16'
+                    STN_L16: '00203'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '75'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 1
-                    name: Enfield16
+                    3: 5
+                    1: 2
+                    2: 7
+                    name: Springfield75
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 11
+                            missionUnitId: 3
                           2:
-                            missionUnitId: 12
+                            missionUnitId: 4
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17339,30 +17339,30 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 11
+                  unitId: 3
                   x: 0
                   y: 0
                 2:
                   AddPropAircraft:
-                    STN_L16: '00214'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '17'
+                    STN_L16: '00204'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '76'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 1
-                    name: Enfield17
+                    3: 6
+                    1: 2
+                    2: 7
+                    name: Springfield76
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 11
+                            missionUnitId: 3
                           2:
-                            missionUnitId: 12
+                            missionUnitId: 4
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17403,7 +17403,7 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 12
+                  unitId: 4
                   x: 0
                   y: 0
               x: 0
@@ -17411,7 +17411,7 @@ coalition:
             38:
               communication: true
               frequency: 305
-              groupId: 64
+              groupId: 478
               hidden: true
               lateActivation: true
               modulation: 0
@@ -17557,25 +17557,25 @@ coalition:
               units:
                 1:
                   AddPropAircraft:
-                    STN_L16: '00222'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '28'
+                    STN_L16: '00440'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '83'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 2
-                    name: Enfield28
+                    3: 3
+                    1: 2
+                    2: 8
+                    name: Springfield83
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 18
+                            missionUnitId: 160
                           2:
-                            missionUnitId: 20
+                            missionUnitId: 162
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17617,30 +17617,30 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 18
+                  unitId: 160
                   x: 0
                   y: 0
                 2:
                   AddPropAircraft:
-                    STN_L16: '00224'
-                    VoiceCallsignLabel: ED
-                    VoiceCallsignNumber: '29'
+                    STN_L16: '00442'
+                    VoiceCallsignLabel: SD
+                    VoiceCallsignNumber: '84'
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 2
-                    name: Enfield29
+                    3: 4
+                    1: 2
+                    2: 8
+                    name: Springfield84
                   datalinks:
                     Link16:
                       network:
                         donors: {}
                         teamMembers:
                           1:
-                            missionUnitId: 18
+                            missionUnitId: 160
                           2:
-                            missionUnitId: 20
+                            missionUnitId: 162
                       settings:
                         AIC_Channel: 1
                         FF1_Channel: 2
@@ -17681,7 +17681,7 @@ coalition:
                   skill: Excellent
                   speed: 179.86111111111
                   type: FA-18C_hornet
-                  unitId: 20
+                  unitId: 162
                   x: 0
                   y: 0
               x: 0
@@ -17689,7 +17689,7 @@ coalition:
             39:
               communication: true
               frequency: 226.6
-              groupId: 53
+              groupId: 461
               hidden: true
               hiddenOnMFD: true
               hiddenOnPlanner: true
@@ -17752,10 +17752,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 1
-                    name: Enfield18
+                    3: 7
+                    1: 2
+                    2: 7
+                    name: Springfield77
                   hardpoint_racks: true
                   heading: 2.7233683240106
                   livery_id: '''camo'' scheme'
@@ -17771,7 +17771,7 @@ coalition:
                   skill: High
                   speed: 80.555555555556
                   type: MQ-9 Reaper
-                  unitId: 13
+                  unitId: 6
                   x: -250000
                   y: -360000
               x: -250000
@@ -20546,7 +20546,7 @@ coalition:
                     ExhaustScreen: true
                     Helmet-mounted device: 0
                     IMU alignment type: 3
-                    Realistic INS: 1
+                    Realistic INS: 0
                     modification: Ka-50_3
                   Radio:
                     1:
@@ -36041,7 +36041,7 @@ coalition:
                     2: 3
                     name: Chevy31
                   hardpoint_racks: true
-                  heading: 0
+                  heading: 0.49467611773261
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F15-E Andersen-1
                   onboard_num: '026'
@@ -36294,7 +36294,7 @@ coalition:
                     1: 7
                     2: 3
                     name: Chevy32
-                  heading: 0
+                  heading: 0.49467611773261
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-1-1
                   onboard_num: '033'
@@ -36547,7 +36547,7 @@ coalition:
                     1: 7
                     2: 3
                     name: Chevy33
-                  heading: 0
+                  heading: 0.49467611773261
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-1-2
                   onboard_num: '034'
@@ -36800,7 +36800,7 @@ coalition:
                     1: 7
                     2: 3
                     name: Chevy34
-                  heading: 0
+                  heading: 0.49467611773261
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-1-3
                   onboard_num: '035'
@@ -37264,7 +37264,7 @@ coalition:
                     2: 4
                     name: Enfield41
                   hardpoint_racks: true
-                  heading: 0
+                  heading: 0.49322052227553
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-2-1
                   onboard_num: '041'
@@ -37517,7 +37517,7 @@ coalition:
                     1: 1
                     2: 4
                     name: Enfield42
-                  heading: 0
+                  heading: 0.49322052227553
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-2-2
                   onboard_num: '042'
@@ -37770,7 +37770,7 @@ coalition:
                     1: 1
                     2: 4
                     name: Enfield43
-                  heading: 0
+                  heading: 0.49322052227553
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-2-3
                   onboard_num: '043'
@@ -38023,7 +38023,7 @@ coalition:
                     1: 1
                     2: 4
                     name: Enfield44
-                  heading: 0
+                  heading: 0.49322052227553
                   livery_id: usaf 17th ws af90 high vis clean
                   name: F-15E Andersen-2-4
                   onboard_num: '045'
@@ -60000,7 +60000,7 @@ coalition:
                     ExhaustScreen: true
                     Helmet-mounted device: 0
                     IMU alignment type: 3
-                    Realistic INS: 1
+                    Realistic INS: 0
                     modification: Ka-50_3
                   Radio:
                     1:
@@ -69908,7 +69908,7 @@ coalition:
             16:
               communication: true
               frequency: 127.5
-              groupId: 153
+              groupId: 520
               hidden: true
               lateActivation: true
               modulation: 0
@@ -70046,10 +70046,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 5
-                    name: Enfield54
+                    3: 5
+                    1: 3
+                    2: 2
+                    name: Uzi25
                   hardpoint_racks: true
                   heading: 0.90890440462774
                   livery_id: aerges blue
@@ -70077,7 +70077,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 47
+                  unitId: 186
                   x: 0
                   y: 0
                 2:
@@ -70085,10 +70085,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 5
-                    name: Enfield55
+                    3: 6
+                    1: 3
+                    2: 2
+                    name: Uzi26
                   heading: 0.90890440462774
                   livery_id: aerges blue
                   name: 'F1EE - FOX1 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -70115,7 +70115,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 48
+                  unitId: 187
                   x: 0
                   y: 0
               x: 0
@@ -70123,7 +70123,7 @@ coalition:
             17:
               communication: true
               frequency: 127.5
-              groupId: 303
+              groupId: 569
               hidden: true
               lateActivation: true
               modulation: 0
@@ -70261,10 +70261,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 9
-                    name: Enfield92
+                    3: 5
+                    1: 3
+                    2: 6
+                    name: Uzi65
                   hardpoint_racks: true
                   heading: 0.97396117905576
                   livery_id: aerges blue
@@ -70292,7 +70292,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 91
+                  unitId: 226
                   x: 0
                   y: 0
                 2:
@@ -70300,10 +70300,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 9
-                    name: Enfield93
+                    3: 6
+                    1: 3
+                    2: 6
+                    name: Uzi66
                   heading: 0.97396117905576
                   livery_id: aerges blue
                   name: 'F1EE - FOX1 - Radar ON - ECM ON - EASY X2 #02'
@@ -70330,7 +70330,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 94
+                  unitId: 232
                   x: 0
                   y: 0
               x: 0
@@ -70338,7 +70338,7 @@ coalition:
             18:
               communication: true
               frequency: 127.5
-              groupId: 600
+              groupId: 598
               hidden: true
               lateActivation: true
               modulation: 0
@@ -70476,10 +70476,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 2
-                    2: 7
-                    name: Springfield72
+                    3: 4
+                    1: 4
+                    2: 4
+                    name: Colt44
                   hardpoint_racks: true
                   heading: 1.110941685
                   livery_id: aerges blue
@@ -70507,7 +70507,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 154
+                  unitId: 574
                   x: 0
                   y: 0
                 2:
@@ -70515,10 +70515,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 2
-                    2: 7
-                    name: Springfield73
+                    3: 5
+                    1: 4
+                    2: 4
+                    name: Colt45
                   heading: 1.110941685
                   livery_id: aerges blue
                   name: 'F1EE - FOX2 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -70545,7 +70545,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 155
+                  unitId: 575
                   x: 0
                   y: 0
               x: 0
@@ -70553,7 +70553,7 @@ coalition:
             19:
               communication: true
               frequency: 127.5
-              groupId: 350
+              groupId: 577
               hidden: true
               lateActivation: true
               modulation: 0
@@ -70691,10 +70691,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 2
-                    2: 2
-                    name: Springfield26
+                    3: 1
+                    1: 3
+                    2: 8
+                    name: Uzi81
                   hardpoint_racks: true
                   heading: 1.0416925467295
                   livery_id: aerges blue
@@ -70722,7 +70722,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 109
+                  unitId: 340
                   x: 0
                   y: 0
                 2:
@@ -70730,10 +70730,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 2
-                    2: 2
-                    name: Springfield27
+                    3: 2
+                    1: 3
+                    2: 8
+                    name: Uzi82
                   heading: 1.0416925467295
                   livery_id: aerges blue
                   name: 'F1EE - FOX2 - Radar ON - ECM ON - EASY X2 #02'
@@ -70760,7 +70760,7 @@ coalition:
                   skill: Excellent
                   speed: 298.05555555556
                   type: Mirage-F1EE
-                  unitId: 110
+                  unitId: 344
                   x: 0
                   y: 0
               x: 0
@@ -70768,7 +70768,7 @@ coalition:
             20:
               communication: true
               frequency: 127.5
-              groupId: 295
+              groupId: 566
               hidden: true
               lateActivation: true
               modulation: 0
@@ -70904,10 +70904,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 8
-                    name: Enfield84
+                    3: 8
+                    1: 3
+                    2: 5
+                    name: Uzi58
                   hardpoint_racks: true
                   heading: 0.98033487130713
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -70939,17 +70939,17 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 85
+                  unitId: 220
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 8
-                    name: Enfield85
+                    3: 9
+                    1: 3
+                    2: 5
+                    name: Uzi59
                   heading: 0.98033487130713
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
                   name: 'J-11A - FOX1 - ECM OFF - Radar ON - EASY X2 #02'
@@ -70980,7 +70980,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 86
+                  unitId: 221
                   x: 0
                   y: 0
               x: 0
@@ -70988,7 +70988,7 @@ coalition:
             21:
               communication: true
               frequency: 127.5
-              groupId: 131
+              groupId: 491
               hidden: true
               lateActivation: true
               modulation: 0
@@ -71124,10 +71124,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 4
-                    name: Enfield43
+                    3: 5
+                    1: 2
+                    2: 9
+                    name: Springfield95
                   hardpoint_racks: true
                   heading: 1.5810383337472
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -71155,17 +71155,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: J-11A
-                  unitId: 32
+                  unitId: 175
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 4
-                    name: Enfield44
+                    3: 6
+                    1: 2
+                    2: 9
+                    name: Springfield96
                   heading: 1.5810383337472
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
                   name: 'J-11A - FOX2 - ECM OFF - Radar OFF - NORMAL X2 #02'
@@ -71192,7 +71192,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: J-11A
-                  unitId: 33
+                  unitId: 176
                   x: 0
                   y: 0
               x: 0
@@ -71200,7 +71200,7 @@ coalition:
             22:
               communication: true
               frequency: 127.5
-              groupId: 421
+              groupId: 590
               hidden: true
               lateActivation: true
               modulation: 0
@@ -71337,9 +71337,9 @@ coalition:
                   alt_type: BARO
                   callsign:
                     3: 5
-                    1: 2
-                    2: 5
-                    name: Springfield55
+                    1: 4
+                    2: 2
+                    name: Colt25
                   hardpoint_racks: true
                   heading: 0.93729841929789
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -71367,7 +71367,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 136
+                  unitId: 499
                   x: 0
                   y: 0
                 2:
@@ -71375,9 +71375,9 @@ coalition:
                   alt_type: BARO
                   callsign:
                     3: 6
-                    1: 2
-                    2: 5
-                    name: Springfield56
+                    1: 4
+                    2: 2
+                    name: Colt26
                   heading: 0.93729841929789
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
                   name: 'J-11A - FOX2 - ECM ON - Radar OFF - EASY X2 #02'
@@ -71404,7 +71404,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 137
+                  unitId: 500
                   x: 0
                   y: 0
               x: 0
@@ -71412,7 +71412,7 @@ coalition:
             23:
               communication: true
               frequency: 127.5
-              groupId: 411
+              groupId: 585
               hidden: true
               lateActivation: true
               modulation: 0
@@ -71548,10 +71548,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 2
-                    2: 4
-                    name: Springfield46
+                    3: 7
+                    1: 3
+                    2: 9
+                    name: Uzi97
                   hardpoint_racks: true
                   heading: 2.143558578733
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -71583,7 +71583,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 126
+                  unitId: 463
                   x: 0
                   y: 0
               x: 0
@@ -71591,7 +71591,7 @@ coalition:
             24:
               communication: true
               frequency: 127.5
-              groupId: 293
+              groupId: 564
               hidden: true
               lateActivation: true
               modulation: 0
@@ -71727,10 +71727,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 1
-                    2: 8
-                    name: Enfield81
+                    3: 5
+                    1: 3
+                    2: 5
+                    name: Uzi55
                   hardpoint_racks: true
                   heading: 2.1004603152173
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -71762,7 +71762,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: J-11A
-                  unitId: 81
+                  unitId: 217
                   x: 0
                   y: 0
               x: 0
@@ -71770,7 +71770,7 @@ coalition:
             25:
               communication: true
               frequency: 127.5
-              groupId: 336
+              groupId: 575
               hidden: true
               lateActivation: true
               modulation: 0
@@ -71906,10 +71906,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 2
-                    2: 1
-                    name: Springfield17
+                    3: 6
+                    1: 3
+                    2: 7
+                    name: Uzi76
                   hardpoint_racks: true
                   heading: 1.4999141936298
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
@@ -71941,17 +71941,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: J-11A
-                  unitId: 105
+                  unitId: 304
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 2
-                    2: 1
-                    name: Springfield18
+                    3: 7
+                    1: 3
+                    2: 7
+                    name: Uzi77
                   heading: 1.4999141936298
                   livery_id: usaf 65th aggressor sqn 'desert' (fictional)
                   name: 'J-11A -FOX1 - ECM OFF - Radar ON - NORMAL X2 #02'
@@ -71982,7 +71982,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: J-11A
-                  unitId: 106
+                  unitId: 312
                   x: 0
                   y: 0
               x: 0
@@ -71990,7 +71990,7 @@ coalition:
             26:
               communication: true
               frequency: 243
-              groupId: 410
+              groupId: 584
               hidden: true
               lateActivation: true
               modulation: 0
@@ -72138,10 +72138,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 2
-                    2: 4
-                    name: Springfield44
+                    3: 5
+                    1: 3
+                    2: 9
+                    name: Uzi95
                   hardpoint_racks: true
                   heading: 0.97240944884986
                   livery_id: maf blue sea camo
@@ -72167,7 +72167,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: JF-17
-                  unitId: 124
+                  unitId: 461
                   x: 0
                   y: 0
                 2:
@@ -72175,10 +72175,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 2
-                    2: 4
-                    name: Springfield45
+                    3: 6
+                    1: 3
+                    2: 9
+                    name: Uzi96
                   heading: 0.97240944884986
                   livery_id: maf blue sea camo
                   name: 'JF-17 - FOX2 - ECM OFF - Radar OFF - EASY X2 #02'
@@ -72203,7 +72203,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: JF-17
-                  unitId: 125
+                  unitId: 462
                   x: 0
                   y: 0
               x: 0
@@ -72211,7 +72211,7 @@ coalition:
             27:
               communication: true
               frequency: 243
-              groupId: 457
+              groupId: 595
               hidden: true
               lateActivation: true
               modulation: 0
@@ -72359,10 +72359,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 2
-                    2: 6
-                    name: Springfield66
+                    3: 8
+                    1: 4
+                    2: 3
+                    name: Colt38
                   hardpoint_racks: true
                   heading: 1.8436793475908
                   livery_id: maf blue sea camo
@@ -72390,7 +72390,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: JF-17
-                  unitId: 147
+                  unitId: 537
                   x: 0
                   y: 0
               x: 0
@@ -72398,7 +72398,7 @@ coalition:
             28:
               communication: true
               frequency: 243
-              groupId: 420
+              groupId: 589
               hidden: true
               lateActivation: true
               modulation: 0
@@ -72546,10 +72546,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 2
-                    2: 5
-                    name: Springfield54
+                    3: 9
+                    1: 4
+                    2: 1
+                    name: Colt19
                   hardpoint_racks: true
                   heading: 1.9582894797117
                   livery_id: maf blue sea camo
@@ -72579,7 +72579,7 @@ coalition:
                   skill: Excellent
                   speed: 100.42609222707
                   type: JF-17
-                  unitId: 135
+                  unitId: 498
                   x: 0
                   y: 0
               x: 0
@@ -72587,7 +72587,7 @@ coalition:
             29:
               communication: true
               frequency: 251
-              groupId: 296
+              groupId: 567
               hidden: true
               lateActivation: true
               modulation: 0
@@ -72736,10 +72736,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 8
-                    name: Enfield86
+                    3: 1
+                    1: 3
+                    2: 6
+                    name: Uzi61
                   hardpoint_racks: true
                   heading: 1.5611477961291
                   livery_id: uae air force
@@ -72768,7 +72768,7 @@ coalition:
                   skill: Excellent
                   speed: 251.80555555556
                   type: M-2000C
-                  unitId: 87
+                  unitId: 222
                   x: 0
                   y: 0
                 2:
@@ -72788,10 +72788,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 8
-                    name: Enfield87
+                    3: 2
+                    1: 3
+                    2: 6
+                    name: Uzi62
                   heading: 1.5611477961291
                   livery_id: uae air force
                   name: 'M-2000C - FOX1 - ECM OFF - Radar ON - NORMAL X2 #02'
@@ -72819,7 +72819,7 @@ coalition:
                   skill: Excellent
                   speed: 251.80555555556
                   type: M-2000C
-                  unitId: 88
+                  unitId: 223
                   x: 0
                   y: 0
               x: 0
@@ -72827,7 +72827,7 @@ coalition:
             30:
               communication: true
               frequency: 251
-              groupId: 601
+              groupId: 599
               hidden: true
               lateActivation: true
               modulation: 0
@@ -72976,10 +72976,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 2
-                    2: 7
-                    name: Springfield74
+                    3: 6
+                    1: 4
+                    2: 4
+                    name: Colt46
                   hardpoint_racks: true
                   heading: 1.9994032817964
                   livery_id: uae air force
@@ -73008,7 +73008,7 @@ coalition:
                   skill: Excellent
                   speed: 251.80555555556
                   type: M-2000C
-                  unitId: 156
+                  unitId: 581
                   x: 0
                   y: 0
               x: 0
@@ -73016,7 +73016,7 @@ coalition:
             31:
               communication: true
               frequency: 251
-              groupId: 144
+              groupId: 509
               hidden: true
               lateActivation: true
               modulation: 0
@@ -73163,10 +73163,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 1
-                    2: 5
-                    name: Enfield51
+                    3: 7
+                    1: 3
+                    2: 1
+                    name: Uzi17
                   hardpoint_racks: true
                   heading: 1.0258902376544
                   livery_id: Hellenic Airforce
@@ -73200,7 +73200,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Mirage 2000-5
-                  unitId: 44
+                  unitId: 183
                   x: 0
                   y: 0
               x: 0
@@ -73208,7 +73208,7 @@ coalition:
             32:
               communication: true
               frequency: 251
-              groupId: 333
+              groupId: 572
               hidden: true
               lateActivation: true
               modulation: 0
@@ -73355,10 +73355,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 9
-                    name: Enfield98
+                    3: 2
+                    1: 3
+                    2: 7
+                    name: Uzi72
                   hardpoint_racks: true
                   heading: 1.4405105790279
                   livery_id: Hellenic Airforce
@@ -73392,7 +73392,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Mirage 2000-5
-                  unitId: 100
+                  unitId: 266
                   x: 0
                   y: 0
               x: 0
@@ -73400,7 +73400,7 @@ coalition:
             33:
               communication: true
               frequency: 251
-              groupId: 132
+              groupId: 496
               hidden: true
               lateActivation: true
               modulation: 0
@@ -73547,10 +73547,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 4
-                    name: Enfield45
+                    3: 7
+                    1: 2
+                    2: 9
+                    name: Springfield97
                   hardpoint_racks: true
                   heading: 2.1017915943114
                   livery_id: Hellenic Airforce
@@ -73584,7 +73584,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Mirage 2000-5
-                  unitId: 35
+                  unitId: 178
                   x: 0
                   y: 0
               x: 0
@@ -73592,7 +73592,7 @@ coalition:
             34:
               communication: true
               frequency: 251
-              groupId: 240
+              groupId: 558
               hidden: true
               lateActivation: true
               modulation: 0
@@ -73739,10 +73739,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 6
-                    name: Enfield68
+                    3: 3
+                    1: 3
+                    2: 4
+                    name: Uzi43
                   hardpoint_racks: true
                   heading: 1.7341706837541
                   livery_id: Hellenic Airforce
@@ -73776,7 +73776,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Mirage 2000-5
-                  unitId: 65
+                  unitId: 203
                   x: 0
                   y: 0
               x: 0
@@ -73784,7 +73784,7 @@ coalition:
             35:
               communication: true
               frequency: 124
-              groupId: 319
+              groupId: 570
               hidden: true
               lateActivation: true
               modulation: 0
@@ -73920,10 +73920,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 9
-                    name: Enfield94
+                    3: 7
+                    1: 3
+                    2: 6
+                    name: Uzi67
                   hardpoint_racks: true
                   heading: 0.74781197072777
                   livery_id: afghanistan (1)
@@ -73952,17 +73952,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-21Bis
-                  unitId: 95
+                  unitId: 233
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 9
-                    name: Enfield95
+                    3: 8
+                    1: 3
+                    2: 6
+                    name: Uzi68
                   heading: 0.74781197072777
                   livery_id: afghanistan (1)
                   name: 'MIG21B - FOX1 - Radar ON - EASY X2 #02'
@@ -73990,7 +73990,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-21Bis
-                  unitId: 96
+                  unitId: 236
                   x: 0
                   y: 0
               x: 0
@@ -73998,7 +73998,7 @@ coalition:
             36:
               communication: true
               frequency: 124
-              groupId: 436
+              groupId: 593
               hidden: true
               lateActivation: true
               modulation: 0
@@ -74134,10 +74134,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 2
-                    2: 6
-                    name: Springfield62
+                    3: 4
+                    1: 4
+                    2: 3
+                    name: Colt34
                   hardpoint_racks: true
                   heading: 0.96516001534144
                   livery_id: afghanistan (1)
@@ -74164,17 +74164,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-21Bis
-                  unitId: 142
+                  unitId: 509
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 2
-                    2: 6
-                    name: Springfield63
+                    3: 5
+                    1: 4
+                    2: 3
+                    name: Colt35
                   heading: 0.96516001534144
                   livery_id: afghanistan (1)
                   name: 'MIG21B - FOX2 - Radar OFF - EASY X2 #02'
@@ -74200,7 +74200,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-21Bis
-                  unitId: 143
+                  unitId: 523
                   x: 0
                   y: 0
               x: 0
@@ -74208,7 +74208,7 @@ coalition:
             37:
               communication: true
               frequency: 251
-              groupId: 428
+              groupId: 591
               hidden: true
               lateActivation: true
               modulation: 0
@@ -74345,9 +74345,9 @@ coalition:
                   alt_type: BARO
                   callsign:
                     3: 7
-                    1: 2
-                    2: 5
-                    name: Springfield57
+                    1: 4
+                    2: 2
+                    name: Colt27
                   hardpoint_racks: true
                   heading: 0.87744255853289
                   livery_id: Algerian Air Force
@@ -74373,7 +74373,7 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 138
+                  unitId: 503
                   x: 0
                   y: 0
                 2:
@@ -74381,9 +74381,9 @@ coalition:
                   alt_type: BARO
                   callsign:
                     3: 8
-                    1: 2
-                    2: 5
-                    name: Springfield58
+                    1: 4
+                    2: 2
+                    name: Colt28
                   heading: 0.87744255853289
                   livery_id: Algerian Air Force
                   name: 'MIG23 - FOX1 - Radar OFF - EASY X2 #02'
@@ -74408,7 +74408,7 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 139
+                  unitId: 506
                   x: 0
                   y: 0
               x: 0
@@ -74416,7 +74416,7 @@ coalition:
             38:
               communication: true
               frequency: 251
-              groupId: 98
+              groupId: 490
               hidden: true
               lateActivation: true
               modulation: 0
@@ -74552,10 +74552,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 1
-                    2: 4
-                    name: Enfield41
+                    3: 3
+                    1: 2
+                    2: 9
+                    name: Springfield93
                   hardpoint_racks: true
                   heading: 0.99838975885852
                   livery_id: Algerian Air Force
@@ -74581,17 +74581,17 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 30
+                  unitId: 172
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 4
-                    name: Enfield42
+                    3: 4
+                    1: 2
+                    2: 9
+                    name: Springfield94
                   heading: 0.99838975885852
                   livery_id: Algerian Air Force
                   name: 'MIG23 - FOX1 - Radar ON - EASY X2 #02'
@@ -74616,7 +74616,7 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 31
+                  unitId: 174
                   x: 0
                   y: 0
               x: 0
@@ -74624,7 +74624,7 @@ coalition:
             39:
               communication: true
               frequency: 251
-              groupId: 456
+              groupId: 594
               hidden: true
               lateActivation: true
               modulation: 0
@@ -74760,10 +74760,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 2
-                    2: 6
-                    name: Springfield64
+                    3: 6
+                    1: 4
+                    2: 3
+                    name: Colt36
                   hardpoint_racks: true
                   heading: 0.83154518815807
                   livery_id: Algerian Air Force
@@ -74789,17 +74789,17 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 144
+                  unitId: 526
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 2
-                    2: 6
-                    name: Springfield65
+                    3: 7
+                    1: 4
+                    2: 3
+                    name: Colt37
                   heading: 0.83154518815807
                   livery_id: Algerian Air Force
                   name: 'MIG23 - FOX2 - Radar OFF - EASY X2 #02'
@@ -74824,7 +74824,7 @@ coalition:
                   skill: Excellent
                   speed: 210.69444444444
                   type: MiG-23MLD
-                  unitId: 146
+                  unitId: 536
                   x: 0
                   y: 0
               x: 0
@@ -74832,7 +74832,7 @@ coalition:
             40:
               communication: true
               frequency: 251
-              groupId: 297
+              groupId: 568
               hidden: true
               lateActivation: true
               modulation: 0
@@ -74969,10 +74969,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 8
-                    name: Enfield88
+                    3: 3
+                    1: 3
+                    2: 6
+                    name: Uzi63
                   hardpoint_racks: true
                   heading: 1.8932340378562
                   livery_id: Algerian Air Force
@@ -74996,17 +74996,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 89
+                  unitId: 224
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 8
-                    name: Enfield89
+                    3: 4
+                    1: 3
+                    2: 6
+                    name: Uzi64
                   heading: 1.8932340378562
                   livery_id: Algerian Air Force
                   name: 'MIG25 - FOX1 - Radar OFF - NORMAL X2 #02'
@@ -75029,7 +75029,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 90
+                  unitId: 225
                   x: 0
                   y: 0
               x: 0
@@ -75037,7 +75037,7 @@ coalition:
             41:
               communication: true
               frequency: 251
-              groupId: 430
+              groupId: 592
               hidden: true
               lateActivation: true
               modulation: 0
@@ -75175,9 +75175,9 @@ coalition:
                   alt_type: BARO
                   callsign:
                     3: 9
-                    1: 2
-                    2: 5
-                    name: Springfield59
+                    1: 4
+                    2: 2
+                    name: Colt29
                   hardpoint_racks: true
                   heading: 1.7885881554235
                   livery_id: Algerian Air Force
@@ -75201,17 +75201,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 140
+                  unitId: 507
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 2
-                    2: 6
-                    name: Springfield61
+                    3: 3
+                    1: 4
+                    2: 3
+                    name: Colt33
                   heading: 1.7885881554235
                   livery_id: Algerian Air Force
                   name: 'MIG25 - FOX1 - Radar ON - NORMAL X2 #02'
@@ -75234,7 +75234,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 141
+                  unitId: 508
                   x: 0
                   y: 0
               x: 0
@@ -75242,7 +75242,7 @@ coalition:
             42:
               communication: true
               frequency: 251
-              groupId: 330
+              groupId: 571
               hidden: true
               lateActivation: true
               modulation: 0
@@ -75379,10 +75379,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 9
-                    name: Enfield96
+                    3: 9
+                    1: 3
+                    2: 6
+                    name: Uzi69
                   hardpoint_racks: true
                   heading: 2.0432271965883
                   livery_id: Algerian Air Force
@@ -75406,17 +75406,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 98
+                  unitId: 260
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 9
-                    name: Enfield97
+                    3: 1
+                    1: 3
+                    2: 7
+                    name: Uzi71
                   heading: 2.0432271965883
                   livery_id: Algerian Air Force
                   name: 'MIG25 - FOX2 - Radar OFF - NORMAL X2 #02'
@@ -75439,7 +75439,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-25PD
-                  unitId: 99
+                  unitId: 261
                   x: 0
                   y: 0
               x: 0
@@ -75447,7 +75447,7 @@ coalition:
             43:
               communication: true
               frequency: 124
-              groupId: 347
+              groupId: 576
               hidden: true
               lateActivation: true
               modulation: 0
@@ -75584,10 +75584,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 2
-                    2: 1
-                    name: Springfield19
+                    3: 8
+                    1: 3
+                    2: 7
+                    name: Uzi78
                   hardpoint_racks: true
                   heading: 0.73413066928409
                   livery_id: Kazakhstan Air Defense Forces
@@ -75617,17 +75617,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 107
+                  unitId: 320
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 2
-                    2: 2
-                    name: Springfield25
+                    3: 9
+                    1: 3
+                    2: 7
+                    name: Uzi79
                   heading: 0.73413066928409
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX1 - Radar OFF - EASY X2 #02'
@@ -75656,7 +75656,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 108
+                  unitId: 321
                   x: 0
                   y: 0
               x: 0
@@ -75664,7 +75664,7 @@ coalition:
             44:
               communication: true
               frequency: 124
-              groupId: 294
+              groupId: 565
               hidden: true
               lateActivation: true
               modulation: 0
@@ -75801,10 +75801,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 8
-                    name: Enfield82
+                    3: 6
+                    1: 3
+                    2: 5
+                    name: Uzi56
                   hardpoint_racks: true
                   heading: 2.0905330070207
                   livery_id: Kazakhstan Air Defense Forces
@@ -75834,17 +75834,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 82
+                  unitId: 218
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 8
-                    name: Enfield83
+                    3: 7
+                    1: 3
+                    2: 5
+                    name: Uzi57
                   heading: 2.0905330070207
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX1 - Radar OFF - NORMAL X2 #02'
@@ -75873,7 +75873,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 83
+                  unitId: 219
                   x: 0
                   y: 0
               x: 0
@@ -75881,7 +75881,7 @@ coalition:
             45:
               communication: true
               frequency: 124
-              groupId: 417
+              groupId: 588
               hidden: true
               lateActivation: true
               modulation: 0
@@ -76018,10 +76018,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 2
-                    2: 5
-                    name: Springfield52
+                    3: 7
+                    1: 4
+                    2: 1
+                    name: Colt17
                   hardpoint_racks: true
                   heading: 0.58311253172782
                   livery_id: Kazakhstan Air Defense Forces
@@ -76051,17 +76051,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 133
+                  unitId: 496
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 2
-                    2: 5
-                    name: Springfield53
+                    3: 8
+                    1: 4
+                    2: 1
+                    name: Colt18
                   heading: 0.58311253172782
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX1 - Radar ON - EASY X2 #02'
@@ -76090,7 +76090,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 134
+                  unitId: 497
                   x: 0
                   y: 0
               x: 0
@@ -76098,7 +76098,7 @@ coalition:
             46:
               communication: true
               frequency: 124
-              groupId: 249
+              groupId: 560
               hidden: true
               lateActivation: true
               modulation: 0
@@ -76235,10 +76235,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 7
-                    name: Enfield72
+                    3: 6
+                    1: 3
+                    2: 4
+                    name: Uzi46
                   hardpoint_racks: true
                   heading: 2.2956452815402
                   livery_id: Kazakhstan Air Defense Forces
@@ -76268,17 +76268,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 69
+                  unitId: 207
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 7
-                    name: Enfield73
+                    3: 7
+                    1: 3
+                    2: 4
+                    name: Uzi47
                   heading: 2.2956452815402
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX1 - Radar ON - NORMAL X2 #02'
@@ -76307,7 +76307,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 70
+                  unitId: 208
                   x: 0
                   y: 0
               x: 0
@@ -76315,7 +76315,7 @@ coalition:
             47:
               communication: true
               frequency: 124
-              groupId: 361
+              groupId: 579
               hidden: true
               lateActivation: true
               modulation: 0
@@ -76452,10 +76452,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 2
-                    2: 3
-                    name: Springfield34
+                    3: 5
+                    1: 3
+                    2: 8
+                    name: Uzi85
                   hardpoint_racks: true
                   heading: 0.69245986530793
                   livery_id: Kazakhstan Air Defense Forces
@@ -76485,17 +76485,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 113
+                  unitId: 389
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 2
-                    2: 3
-                    name: Springfield35
+                    3: 6
+                    1: 3
+                    2: 8
+                    name: Uzi86
                   heading: 0.69245986530793
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX2 - Radar OFF - EASY X2 #02'
@@ -76524,7 +76524,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 114
+                  unitId: 390
                   x: 0
                   y: 0
               x: 0
@@ -76532,7 +76532,7 @@ coalition:
             48:
               communication: true
               frequency: 124
-              groupId: 152
+              groupId: 518
               hidden: true
               lateActivation: true
               modulation: 0
@@ -76669,10 +76669,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 5
-                    name: Enfield52
+                    3: 8
+                    1: 3
+                    2: 1
+                    name: Uzi18
                   hardpoint_racks: true
                   heading: 2.1690327566733
                   livery_id: Kazakhstan Air Defense Forces
@@ -76702,17 +76702,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 45
+                  unitId: 184
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 5
-                    name: Enfield53
+                    3: 9
+                    1: 3
+                    2: 1
+                    name: Uzi19
                   heading: 2.1690327566733
                   livery_id: Kazakhstan Air Defense Forces
                   name: 'MIG29A - FOX2 - Radar OFF - NORMAL X2 #02'
@@ -76741,7 +76741,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29A
-                  unitId: 46
+                  unitId: 185
                   x: 0
                   y: 0
               x: 0
@@ -76749,7 +76749,7 @@ coalition:
             49:
               communication: true
               frequency: 124
-              groupId: 136
+              groupId: 504
               hidden: true
               lateActivation: true
               modulation: 0
@@ -76886,10 +76886,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 4
-                    name: Enfield48
+                    3: 5
+                    1: 3
+                    2: 1
+                    name: Uzi15
                   hardpoint_racks: true
                   heading: 1.5492163526802
                   livery_id: KazAADF new (fictional digital)
@@ -76919,17 +76919,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 41
+                  unitId: 181
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 4
-                    name: Enfield49
+                    3: 6
+                    1: 3
+                    2: 1
+                    name: Uzi16
                   heading: 1.5492163526802
                   livery_id: KazAADF new (fictional digital)
                   name: 'MIG29S - FOX1 - Radar OFF - ECM OFF - NORMAL X2 #02'
@@ -76958,7 +76958,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 43
+                  unitId: 182
                   x: 0
                   y: 0
               x: 0
@@ -76966,7 +76966,7 @@ coalition:
             50:
               communication: true
               frequency: 124
-              groupId: 178
+              groupId: 541
               hidden: true
               lateActivation: true
               modulation: 0
@@ -77103,10 +77103,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 5
-                    name: Enfield59
+                    3: 4
+                    1: 3
+                    2: 3
+                    name: Uzi34
                   hardpoint_racks: true
                   heading: 1.6201307012089
                   livery_id: KazAADF new (fictional digital)
@@ -77136,17 +77136,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 54
+                  unitId: 192
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 1
-                    2: 6
-                    name: Enfield61
+                    3: 5
+                    1: 3
+                    2: 3
+                    name: Uzi35
                   heading: 1.6201307012089
                   livery_id: KazAADF new (fictional digital)
                   name: 'MIG29S - FOX1 - Radar ON - ECM OFF - NORMAL X2 #02'
@@ -77175,7 +77175,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 57
+                  unitId: 194
                   x: 0
                   y: 0
               x: 0
@@ -77183,7 +77183,7 @@ coalition:
             51:
               communication: true
               frequency: 124
-              groupId: 135
+              groupId: 498
               hidden: true
               lateActivation: true
               modulation: 0
@@ -77320,10 +77320,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 4
-                    name: Enfield46
+                    3: 8
+                    1: 2
+                    2: 9
+                    name: Springfield98
                   hardpoint_racks: true
                   heading: 0.95772133558836
                   livery_id: KazAADF new (fictional digital)
@@ -77349,17 +77349,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 36
+                  unitId: 179
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 4
-                    name: Enfield47
+                    3: 9
+                    1: 2
+                    2: 9
+                    name: Springfield99
                   heading: 0.95772133558836
                   livery_id: KazAADF new (fictional digital)
                   name: 'MIG29S - FOX1 - Radar ON - ECM ON - EASY- X2 #02'
@@ -77384,7 +77384,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 37
+                  unitId: 180
                   x: 0
                   y: 0
               x: 0
@@ -77392,7 +77392,7 @@ coalition:
             52:
               communication: true
               frequency: 124
-              groupId: 415
+              groupId: 587
               hidden: true
               lateActivation: true
               modulation: 0
@@ -77529,10 +77529,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 2
-                    2: 4
-                    name: Springfield49
+                    3: 5
+                    1: 4
+                    2: 1
+                    name: Colt15
                   hardpoint_racks: true
                   heading: 0.88491885286605
                   livery_id: KazAADF new (fictional digital)
@@ -77562,17 +77562,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 129
+                  unitId: 471
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 2
-                    2: 5
-                    name: Springfield51
+                    3: 6
+                    1: 4
+                    2: 1
+                    name: Colt16
                   heading: 0.88491885286605
                   livery_id: KazAADF new (fictional digital)
                   name: 'MIG29S - FOX2 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -77601,7 +77601,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 130
+                  unitId: 487
                   x: 0
                   y: 0
               x: 0
@@ -77609,7 +77609,7 @@ coalition:
             53:
               communication: true
               frequency: 124
-              groupId: 460
+              groupId: 597
               hidden: true
               lateActivation: true
               modulation: 0
@@ -77746,10 +77746,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 2
-                    2: 6
-                    name: Springfield69
+                    3: 2
+                    1: 4
+                    2: 4
+                    name: Colt42
                   hardpoint_racks: true
                   heading: 1.6826790328808
                   livery_id: KazAADF new (fictional digital)
@@ -77779,17 +77779,17 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 151
+                  unitId: 553
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 2
-                    2: 7
-                    name: Springfield71
+                    3: 3
+                    1: 4
+                    2: 4
+                    name: Colt43
                   heading: 1.6826790328808
                   livery_id: KazAADF new (fictional digital)
                   name: 'MIG29S - FOX2 - Radar OFF - ECM OFF - NORMAL X2 #02'
@@ -77818,7 +77818,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 152
+                  unitId: 564
                   x: 0
                   y: 0
               x: 0
@@ -77826,7 +77826,7 @@ coalition:
             54:
               communication: true
               frequency: 124
-              groupId: 222
+              groupId: 555
               hidden: true
               lateActivation: true
               modulation: 0
@@ -77963,10 +77963,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 6
-                    name: Enfield65
+                    3: 9
+                    1: 3
+                    2: 3
+                    name: Uzi39
                   hardpoint_racks: true
                   heading: 2.0768596757627
                   livery_id: KazAADF new (fictional digital)
@@ -77996,7 +77996,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 62
+                  unitId: 199
                   x: 0
                   y: 0
               x: 0
@@ -78004,7 +78004,7 @@ coalition:
             55:
               communication: true
               frequency: 124
-              groupId: 374
+              groupId: 580
               hidden: true
               lateActivation: true
               modulation: 0
@@ -78141,10 +78141,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 2
-                    2: 3
-                    name: Springfield36
+                    3: 7
+                    1: 3
+                    2: 8
+                    name: Uzi87
                   hardpoint_racks: true
                   heading: 2.2161186268185
                   livery_id: KazAADF new (fictional digital)
@@ -78174,7 +78174,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 115
+                  unitId: 391
                   x: 0
                   y: 0
               x: 0
@@ -78182,7 +78182,7 @@ coalition:
             56:
               communication: true
               frequency: 124
-              groupId: 335
+              groupId: 574
               hidden: true
               lateActivation: true
               modulation: 0
@@ -78319,10 +78319,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 2
-                    2: 1
-                    name: Springfield16
+                    3: 5
+                    1: 3
+                    2: 7
+                    name: Uzi75
                   hardpoint_racks: true
                   heading: 2.1670262221893
                   livery_id: KazAADF new (fictional digital)
@@ -78352,7 +78352,7 @@ coalition:
                   skill: Excellent
                   speed: 220.97222222222
                   type: MiG-29S
-                  unitId: 104
+                  unitId: 303
                   x: 0
                   y: 0
               x: 0
@@ -78360,7 +78360,7 @@ coalition:
             57:
               communication: true
               frequency: 251
-              groupId: 65
+              groupId: 480
               hidden: true
               lateActivation: true
               modulation: 0
@@ -78497,10 +78497,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 3
-                    name: Enfield33
+                    3: 5
+                    1: 2
+                    2: 8
+                    name: Springfield85
                   hardpoint_racks: true
                   heading: 1.9340149609618
                   livery_id: 174 GvIAP_Boris Safonov
@@ -78528,17 +78528,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 21
+                  unitId: 163
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 3
-                    name: Enfield34
+                    3: 6
+                    1: 2
+                    2: 8
+                    name: Springfield86
                   heading: 1.9340149609618
                   livery_id: 174 GvIAP_Boris Safonov
                   name: 'MIG31 - FOX1 - Radar OFF - NORMAL X2 #02'
@@ -78565,7 +78565,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 22
+                  unitId: 164
                   x: 0
                   y: 0
               x: 0
@@ -78573,7 +78573,7 @@ coalition:
             58:
               communication: true
               frequency: 251
-              groupId: 458
+              groupId: 596
               hidden: true
               lateActivation: true
               modulation: 0
@@ -78710,10 +78710,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 2
-                    2: 6
-                    name: Springfield67
+                    3: 9
+                    1: 4
+                    2: 3
+                    name: Colt39
                   hardpoint_racks: true
                   heading: 1.8830686915058
                   livery_id: 174 GvIAP_Boris Safonov
@@ -78741,17 +78741,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 148
+                  unitId: 550
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 2
-                    2: 6
-                    name: Springfield68
+                    3: 1
+                    1: 4
+                    2: 4
+                    name: Colt41
                   heading: 1.8830686915058
                   livery_id: 174 GvIAP_Boris Safonov
                   name: 'MIG31 - FOX1 - Radar ON - NORMAL X2 #02'
@@ -78778,7 +78778,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 150
+                  unitId: 552
                   x: 0
                   y: 0
               x: 0
@@ -78786,7 +78786,7 @@ coalition:
             59:
               communication: true
               frequency: 251
-              groupId: 248
+              groupId: 559
               hidden: true
               lateActivation: true
               modulation: 0
@@ -78923,10 +78923,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 6
-                    name: Enfield69
+                    3: 4
+                    1: 3
+                    2: 4
+                    name: Uzi44
                   hardpoint_racks: true
                   heading: 0.85486027475361
                   livery_id: 174 GvIAP_Boris Safonov
@@ -78946,17 +78946,17 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 66
+                  unitId: 204
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 1
-                    2: 7
-                    name: Enfield71
+                    3: 5
+                    1: 3
+                    2: 4
+                    name: Uzi45
                   heading: 0.85486027475361
                   livery_id: 174 GvIAP_Boris Safonov
                   name: 'MIG31 - FOX2 - Radar OFF - EASY X2 #02'
@@ -78975,7 +78975,7 @@ coalition:
                   skill: Excellent
                   speed: 277.5
                   type: MiG-31
-                  unitId: 68
+                  unitId: 206
                   x: 0
                   y: 0
               x: 0
@@ -78983,7 +78983,7 @@ coalition:
             60:
               communication: true
               frequency: 127.5
-              groupId: 92
+              groupId: 486
               hidden: true
               lateActivation: true
               modulation: 0
@@ -79120,10 +79120,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 3
-                    name: Enfield37
+                    3: 9
+                    1: 2
+                    2: 8
+                    name: Springfield89
                   hardpoint_racks: true
                   heading: 1.2279080796732
                   livery_id: placeholder
@@ -79155,17 +79155,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 26
+                  unitId: 168
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 3
-                    name: Enfield38
+                    3: 1
+                    1: 2
+                    2: 9
+                    name: Springfield91
                   heading: 1.2279080796732
                   livery_id: placeholder
                   name: 'SU27 - FOX1 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -79196,7 +79196,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 27
+                  unitId: 170
                   x: 0
                   y: 0
               x: 0
@@ -79204,7 +79204,7 @@ coalition:
             61:
               communication: true
               frequency: 127.5
-              groupId: 334
+              groupId: 573
               hidden: true
               lateActivation: true
               modulation: 0
@@ -79341,10 +79341,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 9
-                    name: Enfield99
+                    3: 3
+                    1: 3
+                    2: 7
+                    name: Uzi73
                   hardpoint_racks: true
                   heading: 1.8750865508326
                   livery_id: placeholder
@@ -79376,17 +79376,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 102
+                  unitId: 299
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 2
-                    2: 1
-                    name: Springfield15
+                    3: 4
+                    1: 3
+                    2: 7
+                    name: Uzi74
                   heading: 1.8750865508326
                   livery_id: placeholder
                   name: 'SU27 - FOX1 - Radar OFF - ECM OFF - NORMAL X2 #02'
@@ -79417,7 +79417,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 103
+                  unitId: 300
                   x: 0
                   y: 0
               x: 0
@@ -79425,7 +79425,7 @@ coalition:
             62:
               communication: true
               frequency: 127.5
-              groupId: 68
+              groupId: 482
               hidden: true
               lateActivation: true
               modulation: 0
@@ -79562,10 +79562,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 3
-                    name: Enfield35
+                    3: 7
+                    1: 2
+                    2: 8
+                    name: Springfield87
                   hardpoint_racks: true
                   heading: 1.2778930347135
                   livery_id: placeholder
@@ -79597,17 +79597,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 24
+                  unitId: 166
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 3
-                    name: Enfield36
+                    3: 8
+                    1: 2
+                    2: 8
+                    name: Springfield88
                   heading: 1.2778930347135
                   livery_id: placeholder
                   name: 'SU27 - FOX1 - Radar ON - ECM OFF - EASY X2 #02'
@@ -79638,7 +79638,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 25
+                  unitId: 167
                   x: 0
                   y: 0
               x: 0
@@ -79646,7 +79646,7 @@ coalition:
             63:
               communication: true
               frequency: 127.5
-              groupId: 251
+              groupId: 561
               hidden: true
               lateActivation: true
               modulation: 0
@@ -79783,10 +79783,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 7
-                    name: Enfield74
+                    3: 8
+                    1: 3
+                    2: 4
+                    name: Uzi48
                   hardpoint_racks: true
                   heading: 1.7616812070881
                   livery_id: placeholder
@@ -79818,17 +79818,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 71
+                  unitId: 209
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 5
-                    1: 1
-                    2: 7
-                    name: Enfield75
+                    3: 9
+                    1: 3
+                    2: 4
+                    name: Uzi49
                   heading: 1.7616812070881
                   livery_id: placeholder
                   name: 'SU27 - FOX1 - Radar ON - ECM OFF - NORMAL X2 #02'
@@ -79859,7 +79859,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 72
+                  unitId: 210
                   x: 0
                   y: 0
               x: 0
@@ -79867,7 +79867,7 @@ coalition:
             64:
               communication: true
               frequency: 127.5
-              groupId: 413
+              groupId: 586
               hidden: true
               lateActivation: true
               modulation: 0
@@ -80004,10 +80004,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 2
-                    2: 4
-                    name: Springfield47
+                    3: 8
+                    1: 3
+                    2: 9
+                    name: Uzi98
                   hardpoint_racks: true
                   heading: 1.1862003967213
                   livery_id: placeholder
@@ -80035,17 +80035,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 127
+                  unitId: 464
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 2
-                    2: 4
-                    name: Springfield48
+                    3: 9
+                    1: 3
+                    2: 9
+                    name: Uzi99
                   heading: 1.1862003967213
                   livery_id: placeholder
                   name: 'SU27 - FOX2 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -80072,7 +80072,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 128
+                  unitId: 465
                   x: 0
                   y: 0
               x: 0
@@ -80080,7 +80080,7 @@ coalition:
             65:
               communication: true
               frequency: 127.5
-              groupId: 375
+              groupId: 581
               hidden: true
               lateActivation: true
               modulation: 0
@@ -80217,10 +80217,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 2
-                    2: 3
-                    name: Springfield37
+                    3: 8
+                    1: 3
+                    2: 8
+                    name: Uzi88
                   hardpoint_racks: true
                   heading: 1.8862293100827
                   livery_id: placeholder
@@ -80248,17 +80248,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 116
+                  unitId: 408
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 2
-                    2: 3
-                    name: Springfield38
+                    3: 9
+                    1: 3
+                    2: 8
+                    name: Uzi89
                   heading: 1.8862293100827
                   livery_id: placeholder
                   name: 'SU27 - FOX2 - Radar OFF - ECM OFF - NORMAL X2 #02'
@@ -80285,7 +80285,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-27
-                  unitId: 118
+                  unitId: 416
                   x: 0
                   y: 0
               x: 0
@@ -80293,7 +80293,7 @@ coalition:
             66:
               communication: true
               frequency: 251
-              groupId: 406
+              groupId: 582
               hidden: true
               lateActivation: true
               modulation: 0
@@ -80430,10 +80430,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 2
-                    2: 3
-                    name: Springfield39
+                    3: 1
+                    1: 3
+                    2: 9
+                    name: Uzi91
                   hardpoint_racks: true
                   heading: 1.5733556201788
                   livery_id: '`desert` test paint scheme'
@@ -80465,17 +80465,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 119
+                  unitId: 417
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 1
-                    1: 2
-                    2: 4
-                    name: Springfield41
+                    3: 2
+                    1: 3
+                    2: 9
+                    name: Uzi92
                   heading: 1.5733556201788
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX1 - Radar OFF - ECM OFF - NORMAL X2 #02'
@@ -80506,7 +80506,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 120
+                  unitId: 419
                   x: 0
                   y: 0
               x: 0
@@ -80514,7 +80514,7 @@ coalition:
             67:
               communication: true
               frequency: 251
-              groupId: 360
+              groupId: 578
               hidden: true
               lateActivation: true
               modulation: 0
@@ -80651,10 +80651,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 2
-                    2: 2
-                    name: Springfield28
+                    3: 3
+                    1: 3
+                    2: 8
+                    name: Uzi83
                   hardpoint_racks: true
                   heading: 0.8053473237923
                   livery_id: '`snow` test paint scheme'
@@ -80686,17 +80686,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 111
+                  unitId: 346
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 2
-                    2: 2
-                    name: Springfield29
+                    3: 4
+                    1: 3
+                    2: 8
+                    name: Uzi84
                   heading: 0.8053473237923
                   livery_id: '`snow` test paint scheme'
                   name: 'SU30 - FOX1 - Radar OFF - ECM ON - EASY X2 #02'
@@ -80727,7 +80727,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 112
+                  unitId: 375
                   x: 0
                   y: 0
               x: 0
@@ -80735,7 +80735,7 @@ coalition:
             68:
               communication: true
               frequency: 251
-              groupId: 287
+              groupId: 563
               hidden: true
               lateActivation: true
               modulation: 0
@@ -80872,10 +80872,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 7
-                    name: Enfield78
+                    3: 3
+                    1: 3
+                    2: 5
+                    name: Uzi53
                   hardpoint_racks: true
                   heading: 1.6890490756784
                   livery_id: '`desert` test paint scheme'
@@ -80907,17 +80907,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 79
+                  unitId: 214
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 7
-                    name: Enfield79
+                    3: 4
+                    1: 3
+                    2: 5
+                    name: Uzi54
                   heading: 1.6890490756784
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX1 - Radar OFF - ECM ON - NORMAL X2 #02'
@@ -80948,7 +80948,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 80
+                  unitId: 216
                   x: 0
                   y: 0
               x: 0
@@ -80956,7 +80956,7 @@ coalition:
             69:
               communication: true
               frequency: 251
-              groupId: 172
+              groupId: 522
               hidden: true
               lateActivation: true
               modulation: 0
@@ -81093,10 +81093,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 5
-                    name: Enfield56
+                    3: 7
+                    1: 3
+                    2: 2
+                    name: Uzi27
                   hardpoint_racks: true
                   heading: 0.86741739462995
                   livery_id: '`snow` test paint scheme'
@@ -81128,17 +81128,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 49
+                  unitId: 188
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 5
-                    name: Enfield57
+                    3: 8
+                    1: 3
+                    2: 2
+                    name: Uzi28
                   heading: 0.86741739462995
                   livery_id: '`snow` test paint scheme'
                   name: 'SU30 - FOX1 - Radar ON - ECM OFF - EASY X2 #02'
@@ -81169,7 +81169,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 50
+                  unitId: 190
                   x: 0
                   y: 0
               x: 0
@@ -81177,7 +81177,7 @@ coalition:
             70:
               communication: true
               frequency: 251
-              groupId: 409
+              groupId: 583
               hidden: true
               lateActivation: true
               modulation: 0
@@ -81314,10 +81314,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 2
-                    2: 4
-                    name: Springfield42
+                    3: 3
+                    1: 3
+                    2: 9
+                    name: Uzi93
                   hardpoint_racks: true
                   heading: 1.6074662463863
                   livery_id: '`desert` test paint scheme'
@@ -81349,17 +81349,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 121
+                  unitId: 420
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 2
-                    2: 4
-                    name: Springfield43
+                    3: 4
+                    1: 3
+                    2: 9
+                    name: Uzi94
                   heading: 1.6074662463863
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX1 - Radar ON - ECM OFF - NORMAL X2 #02'
@@ -81390,7 +81390,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 122
+                  unitId: 455
                   x: 0
                   y: 0
               x: 0
@@ -81398,7 +81398,7 @@ coalition:
             71:
               communication: true
               frequency: 251
-              groupId: 223
+              groupId: 557
               hidden: true
               lateActivation: true
               modulation: 0
@@ -81535,10 +81535,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 6
-                    name: Enfield66
+                    3: 1
+                    1: 3
+                    2: 4
+                    name: Uzi41
                   hardpoint_racks: true
                   heading: 1.028381485168
                   livery_id: '`desert` test paint scheme'
@@ -81570,17 +81570,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 63
+                  unitId: 200
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 6
-                    name: Enfield67
+                    3: 2
+                    1: 3
+                    2: 4
+                    name: Uzi42
                   heading: 1.028381485168
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX2 - Radar OFF - ECM OFF - EASY X2 #02'
@@ -81611,7 +81611,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 64
+                  unitId: 202
                   x: 0
                   y: 0
               x: 0
@@ -81619,7 +81619,7 @@ coalition:
             72:
               communication: true
               frequency: 251
-              groupId: 252
+              groupId: 562
               hidden: true
               lateActivation: true
               modulation: 0
@@ -81756,10 +81756,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 6
-                    1: 1
-                    2: 7
-                    name: Enfield76
+                    3: 1
+                    1: 3
+                    2: 5
+                    name: Uzi51
                   hardpoint_racks: true
                   heading: 0.92973769061558
                   livery_id: '`desert` test paint scheme'
@@ -81791,17 +81791,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 73
+                  unitId: 212
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 7
-                    1: 1
-                    2: 7
-                    name: Enfield77
+                    3: 2
+                    1: 3
+                    2: 5
+                    name: Uzi52
                   heading: 0.92973769061558
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX2 - Radar OFF - ECM ON - EASY X2 #02'
@@ -81832,7 +81832,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 78
+                  unitId: 213
                   x: 0
                   y: 0
               x: 0
@@ -81840,7 +81840,7 @@ coalition:
             73:
               communication: true
               frequency: 251
-              groupId: 93
+              groupId: 489
               hidden: true
               lateActivation: true
               modulation: 0
@@ -81977,10 +81977,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 9
-                    1: 1
-                    2: 3
-                    name: Enfield39
+                    3: 2
+                    1: 2
+                    2: 9
+                    name: Springfield92
                   hardpoint_racks: true
                   heading: 1.9926480630639
                   livery_id: '`desert` test paint scheme'
@@ -82012,7 +82012,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 29
+                  unitId: 171
                   x: 0
                   y: 0
               x: 0
@@ -82020,7 +82020,7 @@ coalition:
             74:
               communication: true
               frequency: 251
-              groupId: 176
+              groupId: 530
               hidden: true
               lateActivation: true
               modulation: 0
@@ -82157,10 +82157,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 8
-                    1: 1
-                    2: 5
-                    name: Enfield58
+                    3: 9
+                    1: 3
+                    2: 2
+                    name: Uzi29
                   hardpoint_racks: true
                   heading: 2.0046564594859
                   livery_id: '`desert` test paint scheme'
@@ -82196,7 +82196,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 53
+                  unitId: 191
                   x: 0
                   y: 0
               x: 0
@@ -82204,7 +82204,7 @@ coalition:
             75:
               communication: true
               frequency: 251
-              groupId: 207
+              groupId: 553
               hidden: true
               lateActivation: true
               modulation: 0
@@ -82341,10 +82341,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 2
-                    1: 1
-                    2: 6
-                    name: Enfield62
+                    3: 6
+                    1: 3
+                    2: 3
+                    name: Uzi36
                   hardpoint_racks: true
                   heading: 1.4746732085466
                   livery_id: '`desert` test paint scheme'
@@ -82376,17 +82376,17 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 58
+                  unitId: 195
                   x: 0
                   y: 0
                 2:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 3
-                    1: 1
-                    2: 6
-                    name: Enfield63
+                    3: 7
+                    1: 3
+                    2: 3
+                    name: Uzi37
                   heading: 1.4746732085466
                   livery_id: '`desert` test paint scheme'
                   name: 'SU30 - FOX3 - Radar ON - ECM OFF - NORMAL X2 #02'
@@ -82417,7 +82417,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 59
+                  unitId: 196
                   x: 0
                   y: 0
               x: 0
@@ -82425,7 +82425,7 @@ coalition:
             76:
               communication: true
               frequency: 251
-              groupId: 221
+              groupId: 554
               hidden: true
               lateActivation: true
               modulation: 0
@@ -82562,10 +82562,10 @@ coalition:
                   alt: 2000
                   alt_type: BARO
                   callsign:
-                    3: 4
-                    1: 1
-                    2: 6
-                    name: Enfield64
+                    3: 8
+                    1: 3
+                    2: 3
+                    name: Uzi38
                   hardpoint_racks: true
                   heading: 1.9395995241722
                   livery_id: '`desert` test paint scheme'
@@ -82601,7 +82601,7 @@ coalition:
                   skill: Excellent
                   speed: 169.58333333333
                   type: Su-30
-                  unitId: 61
+                  unitId: 198
                   x: 0
                   y: 0
               x: 0
@@ -88333,7 +88333,7 @@ coalition:
             2:
               dead: false
               groupId: 1857
-              heading: 268.7457982221
+              heading: 275.02898352928
               linkOffset: true
               name: Static Ka-27-1
               route:
@@ -88351,11 +88351,11 @@ coalition:
               units:
                 1:
                   category: Helicopters
-                  heading: 268.7457982221
+                  heading: 275.02898352928
                   livery_id: standard
                   name: Static Ka-27-1-1
                   offsets:
-                    angle: 263.89612140467
+                    angle: 270.17930671185
                     x: -79.256647780112
                     y: -0.074460404498762
                   rate: '30'
@@ -95650,7 +95650,7 @@ coalitions:
     6: 43
     7: 19
     8: 47
-currentKey: 1236075
+currentKey: 1240258
 date:
   Day: 21
   Month: 6
@@ -105692,9 +105692,9 @@ groundControl:
       neutrals: 0
       red: 4
 map:
-  centerX: 75825.526140383
-  centerY: 48232.529856995
-  zoom: 11611.818646598
+  centerX: 169975.7516761
+  centerY: 90655.618720928
+  zoom: 110959.85052839
 maxDictId: 21
 pictureFileNameB: {}
 pictureFileNameN: {}
@@ -106384,7 +106384,7 @@ version: 22
 weather:
   atmosphere_type: 0
   clouds:
-    base: 3360
+    base: 3400
     density: 0
     iprecptns: 0
     preset: Preset12
