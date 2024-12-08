@@ -14,11 +14,6 @@ veaf.config.MISSION_EXPORT_PATH = nil -- use default folder
 if veafQraManager then
 VeafQRA.ToggleAllSilence(false) --this will set all QRA messages ON if the argument is "true" and all QRA messages to OFF is the argument is "false".
 
--- Activate the new ATIS system by Flogas
-if veafWeather then
-    veafWeather.Active = true
-end
-
     QRA_upperIsland = VeafQRA:new()
     :setName("QRA_upperIsland")
     :addGroup("QRA_upperIsland")
@@ -101,6 +96,10 @@ end
 if veafTransportMission then
     veaf.loggers.get(veaf.Id):info("init - veafTransportMission")
     veafTransportMission.initialize()
+end
+if veafWeather then
+    veaf.loggers.get(veaf.Id):info("init - veafWeather")
+    veafWeather.initialize()
 end
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
